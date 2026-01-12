@@ -1,0 +1,16 @@
+HTTP/2 200 
+date: Mon, 12 Jan 2026 10:40:30 GMT
+content-type: text/html; charset=UTF-8
+age: 1234
+cache-control: public,max-age=0,must-revalidate
+cache-status: "Netlify Edge"; hit
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+server: cloudflare
+strict-transport-security: max-age=31536000
+vary: Accept-Encoding
+x-nf-request-id: 01KERWP0MQJTMEFKJP7RM62NGC
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=dgEL0St7EGt6c0V3Qe4NPNTE0FC4rex2SNEHQH%2FVxsRPOOExesEJn7xVk5MS0od1Ddp%2FaBt2YU2gEUWfBLk7LtaozPwElc44JZ2t0%2Fb4pgUzTJlEuCs2"}]}
+cf-cache-status: DYNAMIC
+cf-ray: 9bcc093c7c3af783-MAD
+alt-svc: h3=":443"; ma=86400
+
