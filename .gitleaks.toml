@@ -1,0 +1,33 @@
+# Gitleaks configuration
+# https://github.com/gitleaks/gitleaks
+
+title = "Investrand Secret Scanning"
+
+[extend]
+useDefault = true
+
+# Additional patterns to catch
+[[rules]]
+id = "google-api-key"
+description = "Google API Key"
+regex = '''AIza[0-9A-Za-z\-_]{35}'''
+tags = ["key", "google"]
+
+[[rules]]
+id = "generic-api-key"
+description = "Generic API Key"
+regex = '''(?i)(api[_-]?key|apikey)\s*[:=]\s*['"]?([a-zA-Z0-9_\-]{20,})['"]?'''
+tags = ["key", "generic"]
+
+[[rules]]
+id = "sentry-dsn"
+description = "Sentry DSN"
+regex = '''https://[a-f0-9]{32}@[a-z0-9]+\.ingest\.sentry\.io/[0-9]+'''
+tags = ["sentry", "dsn"]
+
+# Paths to ignore
+[allowlist]
+paths = [
+  '''(^|/)\.gitleaks\.toml$''',
+  '''(^|/)\.pre-commit-config\.yaml$''',
+]

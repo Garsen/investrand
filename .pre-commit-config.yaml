@@ -1,0 +1,19 @@
+# Pre-commit hooks for secret detection
+# Install: pip install pre-commit && pre-commit install
+# Run manually: pre-commit run --all-files
+
+repos:
+  # Gitleaks - secret detection
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.18.4
+    hooks:
+      - id: gitleaks
+
+  # GitGuardian (alternative/additional scanning)
+  # Requires GITGUARDIAN_API_KEY environment variable
+  # - repo: https://github.com/gitguardian/ggshield
+  #   rev: v1.24.0
+  #   hooks:
+  #     - id: ggshield
+  #       language_version: python3
+  #       stages: [commit]
