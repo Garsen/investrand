@@ -1,0 +1,73 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Title -->
+  <text x="100" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">Executive Summary</text>
+  <rect x="100" y="110" width="320" height="4" fill="url(#accentGradient)" rx="2"/>
+
+  <!-- Key Finding Box -->
+  <rect x="100" y="160" width="1720" height="100" fill="#14B8A6" fill-opacity="0.1" rx="12" stroke="#14B8A6" stroke-width="2"/>
+  <text x="960" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#FFFFFF" text-anchor="middle">The platform rebuild does not address InvestRand's core business needs.</text>
+  <text x="960" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#9CA3AF" text-anchor="middle">Technology investment is focused on infrastructure while business-critical functions remain incomplete.</text>
+
+  <!-- Four Findings -->
+  <text x="100" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#14B8A6">Key Findings</text>
+
+  <!-- Finding 1 -->
+  <rect x="100" y="350" width="840" height="140" fill="#1E293B" rx="12"/>
+  <circle cx="150" cy="420" r="30" fill="#14B8A6"/>
+  <text x="150" y="428" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="200" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">Progress concentrated in infrastructure</text>
+  <text x="200" y="435" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Frontend 80%, Backend 75% — but Financial Calculations 35%,</text>
+  <text x="200" y="465" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">CRM Integration 0%. (Source: Develutions status report, 27 Dec 2025)</text>
+
+  <!-- Finding 2 -->
+  <rect x="980" y="350" width="840" height="140" fill="#1E293B" rx="12"/>
+  <circle cx="1030" cy="420" r="30" fill="#14B8A6"/>
+  <text x="1030" y="428" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="1080" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">Business-critical functions deprioritised</text>
+  <text x="1080" y="435" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Lead capture, deal facilitation, and fee collection are either</text>
+  <text x="1080" y="465" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">"future" features or explicitly out of scope.</text>
+
+  <!-- Finding 3 -->
+  <rect x="100" y="510" width="840" height="140" fill="#1E293B" rx="12"/>
+  <circle cx="150" cy="580" r="30" fill="#F59E0B"/>
+  <text x="150" y="588" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="200" y="560" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">Full migration carries significant risk</text>
+  <text x="200" y="595" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Complete rebuild of business logic, testing, integrations.</text>
+  <text x="200" y="625" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Alternative approaches (Vue 2→3) not fully explored.</text>
+
+  <!-- Finding 4 -->
+  <rect x="980" y="510" width="840" height="140" fill="#1E293B" rx="12"/>
+  <circle cx="1030" cy="580" r="30" fill="#F59E0B"/>
+  <text x="1030" y="588" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="1080" y="560" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">Regulatory questions require attention</text>
+  <text x="1080" y="595" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">5% sourcing fee structure may require PPRA registration.</text>
+  <text x="1080" y="625" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Financial projections may trigger FAIS requirements.</text>
+
+  <!-- Recommendation -->
+  <text x="100" y="720" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#14B8A6">Recommendation</text>
+  <rect x="100" y="745" width="1720" height="120" fill="#1E293B" rx="12"/>
+  <text x="140" y="795" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#FFFFFF">Before proceeding with any development path:</text>
+  <circle cx="160" cy="840" r="6" fill="#14B8A6"/>
+  <text x="180" y="847" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF">Verify Develutions' claimed progress (code access or demonstration)</text>
+  <circle cx="660" cy="840" r="6" fill="#14B8A6"/>
+  <text x="680" y="847" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF">Confirm regulatory compliance status</text>
+  <circle cx="1100" cy="840" r="6" fill="#14B8A6"/>
+  <text x="1120" y="847" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF">Define what technology must deliver for the business to scale</text>
+
+  <!-- Page number -->
+  <text x="1870" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#475569" text-anchor="end">2</text>
+</svg>

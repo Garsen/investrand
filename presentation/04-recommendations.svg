@@ -1,0 +1,132 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+    <linearGradient id="tealGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#0D9488"/>
+    </linearGradient>
+    <linearGradient id="redGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#EF4444"/>
+      <stop offset="100%" style="stop-color:#DC2626"/>
+    </linearGradient>
+    <linearGradient id="amberGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B"/>
+      <stop offset="100%" style="stop-color:#D97706"/>
+    </linearGradient>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6"/>
+      <stop offset="100%" style="stop-color:#2563EB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Title -->
+  <text x="100" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">Recommendations &amp; Next Steps</text>
+  <rect x="100" y="100" width="400" height="4" fill="url(#accentGradient)" rx="2"/>
+
+  <!-- Two Columns -->
+
+  <!-- Column 1: Questions for Develutions -->
+  <rect x="100" y="150" width="860" height="430" fill="#1E293B" rx="16"/>
+  <rect x="100" y="150" width="860" height="60" fill="url(#tealGradient)" rx="16"/>
+  <rect x="100" y="200" width="860" height="10" fill="#1E293B"/>
+  <text x="530" y="192" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">Questions for Develutions</text>
+
+  <text x="130" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#14B8A6">1</text>
+  <text x="160" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">How will your rebuild enable InvestRand to scale to R500M in transactions?</text>
+
+  <text x="130" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#14B8A6">2</text>
+  <text x="160" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Where in your architecture is the investment transaction flow?</text>
+
+  <text x="130" y="350" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#14B8A6">3</text>
+  <text x="160" y="350" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Why is financial calculations only 35% complete if that's the core value proposition?</text>
+
+  <text x="130" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#14B8A6">4</text>
+  <text x="160" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Why is CRM integration 0% complete if lead management is how deals close?</text>
+
+  <text x="130" y="450" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#14B8A6">5</text>
+  <text x="160" y="450" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Why full migration vs Vue 2 → Vue 3 incremental approach?</text>
+
+  <text x="130" y="500" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#14B8A6">6</text>
+  <text x="160" y="500" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">What is the detailed data migration and rollback strategy?</text>
+
+  <text x="130" y="550" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#14B8A6">7</text>
+  <text x="160" y="550" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Timeline realism: 55-60% after 1 month — when is production-ready?</text>
+
+  <!-- Column 2: Questions for Ezra -->
+  <rect x="1000" y="150" width="820" height="430" fill="#1E293B" rx="16"/>
+  <rect x="1000" y="150" width="820" height="60" fill="url(#amberGradient)" rx="16"/>
+  <rect x="1000" y="200" width="820" height="10" fill="#1E293B"/>
+  <text x="1410" y="192" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">Questions for Ezra (InvestRand)</text>
+
+  <text x="1030" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#F59E0B">1</text>
+  <text x="1060" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">How do investors currently invest? What's the actual process?</text>
+
+  <text x="1030" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#F59E0B">2</text>
+  <text x="1060" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">How do you currently collect the 5% sourcing fees?</text>
+
+  <text x="1030" y="350" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#F59E0B">3</text>
+  <text x="1060" y="350" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">What specifically prevents you from scaling today?</text>
+
+  <text x="1030" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#F59E0B">4</text>
+  <text x="1060" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Is the problem the technology, or the business process?</text>
+
+  <text x="1030" y="465" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#EF4444">Regulatory Verification Required:</text>
+  <text x="1030" y="500" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">• Is InvestRand/Ezra PPRA-registered with valid FFC?</text>
+  <text x="1030" y="530" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">• Are sourcing agents PPRA-registered?</text>
+  <text x="1030" y="560" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">• Is FSP license required for financial projections?</text>
+
+  <!-- Before Any More Development -->
+  <text x="100" y="630" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#EF4444">Before Any More Development</text>
+  <rect x="100" y="645" width="380" height="4" fill="#EF4444" rx="2"/>
+
+  <!-- Four Action Cards -->
+  <rect x="100" y="680" width="420" height="130" fill="#EF4444" fill-opacity="0.1" rx="12" stroke="#EF4444" stroke-width="1"/>
+  <circle cx="140" cy="730" r="25" fill="#EF4444"/>
+  <text x="140" y="738" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="180" y="720" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">Define Investor Journey</text>
+  <text x="180" y="750" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">End-to-end from discovery</text>
+  <text x="180" y="775" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">to completed investment</text>
+
+  <rect x="550" y="680" width="420" height="130" fill="#F59E0B" fill-opacity="0.1" rx="12" stroke="#F59E0B" stroke-width="1"/>
+  <circle cx="590" cy="730" r="25" fill="#F59E0B"/>
+  <text x="590" y="738" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="630" y="720" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">Clarify Revenue Model</text>
+  <text x="630" y="750" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">When and how is the</text>
+  <text x="630" y="775" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">sourcing fee collected?</text>
+
+  <rect x="1000" y="680" width="420" height="130" fill="#3B82F6" fill-opacity="0.1" rx="12" stroke="#3B82F6" stroke-width="1"/>
+  <circle cx="1040" cy="730" r="25" fill="#3B82F6"/>
+  <text x="1040" y="738" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="1080" y="720" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">Verify Regulatory Status</text>
+  <text x="1080" y="750" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">PPRA, FSCA, FICA compliance</text>
+  <text x="1080" y="775" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">Consult compliance attorney</text>
+
+  <rect x="1450" y="680" width="370" height="130" fill="#14B8A6" fill-opacity="0.1" rx="12" stroke="#14B8A6" stroke-width="1"/>
+  <circle cx="1490" cy="730" r="25" fill="#14B8A6"/>
+  <text x="1490" y="738" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="1530" y="720" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">Assess Alternatives</text>
+  <text x="1530" y="750" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">Vue 2→3 + bug fixes vs</text>
+  <text x="1530" y="775" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">full stack migration</text>
+
+  <!-- Bottom Banner -->
+  <rect x="100" y="840" width="1720" height="100" fill="#1E293B" rx="12"/>
+  <text x="960" y="885" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#14B8A6" text-anchor="middle">Key Insight</text>
+  <text x="960" y="920" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#FFFFFF" text-anchor="middle">This is a business problem, not a technical problem. Technology should serve the business model — not the other way around.</text>
+
+  <!-- Alternative Approaches -->
+  <text x="100" y="990" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#9CA3AF">Alternative Technical Approaches:</text>
+  <text x="450" y="990" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Vue 2 → Vue 3 migration (2-4 weeks frontend) | Incremental modernisation | Hybrid approach with new features in modern stack</text>
+
+  <!-- Footer -->
+  <text x="1870" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#475569" text-anchor="end">4</text>
+</svg>

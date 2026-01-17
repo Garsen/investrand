@@ -1,0 +1,90 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Title -->
+  <text x="100" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">Scope and Approach</text>
+  <rect x="100" y="110" width="280" height="4" fill="url(#accentGradient)" rx="2"/>
+  <text x="100" y="155" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#9CA3AF">What we were asked to do and how we conducted this review</text>
+
+  <!-- Left Column: Questions -->
+  <text x="100" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#14B8A6">Questions to Answer</text>
+
+  <rect x="100" y="250" width="800" height="280" fill="#1E293B" rx="12"/>
+
+  <circle cx="140" cy="300" r="20" fill="#14B8A6"/>
+  <text x="140" y="308" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="180" y="308" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#FFFFFF">Is the full code migration technically sound and necessary?</text>
+
+  <circle cx="140" cy="370" r="20" fill="#14B8A6"/>
+  <text x="140" y="378" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="180" y="378" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#FFFFFF">Is the pricing reasonable relative to scope?</text>
+
+  <circle cx="140" cy="440" r="20" fill="#14B8A6"/>
+  <text x="140" y="448" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="180" y="448" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#FFFFFF">Can we create a standardised brief to compare vendors?</text>
+
+  <text x="140" y="505" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#64748B">Source: Ezra Rasethe email, 8 December 2025</text>
+
+  <!-- Right Column: Activities -->
+  <text x="980" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#14B8A6">Review Activities</text>
+
+  <rect x="980" y="250" width="840" height="280" fill="#1E293B" rx="12"/>
+
+  <!-- Activity rows -->
+  <text x="1020" y="295" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">Activity</text>
+  <text x="1400" y="295" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">Method</text>
+  <line x1="1000" y1="310" x2="1800" y2="310" stroke="#475569" stroke-width="1"/>
+
+  <text x="1020" y="345" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Document analysis</text>
+  <text x="1400" y="345" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Specifications, emails, status reports</text>
+
+  <text x="1020" y="385" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Platform testing</text>
+  <text x="1400" y="385" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Browser testing as investor user</text>
+
+  <text x="1020" y="425" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Business model research</text>
+  <text x="1400" y="425" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Website, Disrupt Africa, competitors</text>
+
+  <text x="1020" y="465" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Progress assessment</text>
+  <text x="1400" y="465" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Develutions' self-reported status</text>
+
+  <text x="1020" y="505" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#64748B">Testing date: 17 January 2026</text>
+
+  <!-- Limitations -->
+  <text x="100" y="600" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#F59E0B">Limitations of This Review</text>
+
+  <rect x="100" y="630" width="1720" height="180" fill="#F59E0B" fill-opacity="0.1" rx="12" stroke="#F59E0B" stroke-width="1"/>
+
+  <circle cx="150" cy="690" r="8" fill="#F59E0B"/>
+  <text x="175" y="680" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">No access to Develutions' code</text>
+  <text x="175" y="710" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">We cannot verify their claimed progress — we can only analyse their self-reported status.</text>
+
+  <circle cx="700" cy="690" r="8" fill="#F59E0B"/>
+  <text x="725" y="680" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">No admin portal access</text>
+  <text x="725" y="710" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Many claimed bug fixes require admin credentials to verify.</text>
+
+  <circle cx="1250" cy="690" r="8" fill="#F59E0B"/>
+  <text x="1275" y="680" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">Regulatory status unverified</text>
+  <text x="1275" y="710" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">PPRA and FSCA registration requires direct verification.</text>
+
+  <text x="140" y="785" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#F59E0B" font-weight="600">Implication:</text>
+  <text x="280" y="785" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Findings are based on available evidence. Claimed progress should be verified before decisions are made.</text>
+
+  <!-- Documents Reviewed -->
+  <text x="100" y="880" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#9CA3AF">Documents Reviewed</text>
+  <text x="100" y="920" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#64748B">Requirements Specification (80 pages) • Business Rules Specification (50 pages) • Email correspondence (Nov-Dec 2025) • Project Status Report (27 Dec 2025)</text>
+
+  <!-- Page number -->
+  <text x="1870" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#475569" text-anchor="end">3</text>
+</svg>

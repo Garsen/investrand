@@ -1,0 +1,190 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#22C55E"/>
+      <stop offset="100%" style="stop-color:#16A34A"/>
+    </linearGradient>
+    <linearGradient id="amberGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B"/>
+      <stop offset="100%" style="stop-color:#D97706"/>
+    </linearGradient>
+    <linearGradient id="redGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#EF4444"/>
+      <stop offset="100%" style="stop-color:#DC2626"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Title -->
+  <text x="100" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">Business Process and Technology Coverage</text>
+  <rect x="100" y="110" width="500" height="4" fill="url(#accentGradient)" rx="2"/>
+  <text x="100" y="155" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#9CA3AF">Where technology supports the business — and where it does not</text>
+
+  <!-- Process Flow -->
+  <text x="100" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#14B8A6">The InvestRand Business Process</text>
+
+  <!-- Step 1: SOURCE - Green -->
+  <rect x="100" y="260" width="220" height="130" fill="#1E293B" rx="12" stroke="#22C55E" stroke-width="3"/>
+  <circle cx="150" cy="300" r="20" fill="#22C55E"/>
+  <text x="150" y="308" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="210" y="305" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">SOURCE</text>
+  <text x="210" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Agent finds</text>
+  <text x="210" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">property</text>
+
+  <!-- Arrow -->
+  <line x1="320" y1="325" x2="360" y2="325" stroke="#22C55E" stroke-width="3"/>
+  <polygon points="360,320 375,325 360,330" fill="#22C55E"/>
+
+  <!-- Step 2: LIST - Green -->
+  <rect x="380" y="260" width="220" height="130" fill="#1E293B" rx="12" stroke="#22C55E" stroke-width="3"/>
+  <circle cx="430" cy="300" r="20" fill="#22C55E"/>
+  <text x="430" y="308" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="490" y="305" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">LIST</text>
+  <text x="490" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Add to</text>
+  <text x="490" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">platform</text>
+
+  <!-- Arrow -->
+  <line x1="600" y1="325" x2="640" y2="325" stroke="#22C55E" stroke-width="3"/>
+  <polygon points="640,320 655,325 640,330" fill="#22C55E"/>
+
+  <!-- Step 3: APPROVE - Green -->
+  <rect x="660" y="260" width="220" height="130" fill="#1E293B" rx="12" stroke="#22C55E" stroke-width="3"/>
+  <circle cx="710" cy="300" r="20" fill="#22C55E"/>
+  <text x="710" y="308" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="770" y="305" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">APPROVE</text>
+  <text x="770" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Admin</text>
+  <text x="770" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">review</text>
+
+  <!-- Arrow -->
+  <line x1="880" y1="325" x2="920" y2="325" stroke="#22C55E" stroke-width="3"/>
+  <polygon points="920,320 935,325 920,330" fill="#22C55E"/>
+
+  <!-- Step 4: DISCOVER - Green -->
+  <rect x="940" y="260" width="220" height="130" fill="#1E293B" rx="12" stroke="#22C55E" stroke-width="3"/>
+  <circle cx="990" cy="300" r="20" fill="#22C55E"/>
+  <text x="990" y="308" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="1050" y="305" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">DISCOVER</text>
+  <text x="1050" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Investor</text>
+  <text x="1050" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">browses</text>
+
+  <!-- Arrow (dashed - transition to gap) -->
+  <line x1="1160" y1="325" x2="1200" y2="325" stroke="#F59E0B" stroke-width="3" stroke-dasharray="8,4"/>
+  <polygon points="1200,320 1215,325 1200,330" fill="#F59E0B"/>
+
+  <!-- Step 5: INTEREST - Amber -->
+  <rect x="1220" y="260" width="220" height="130" fill="#1E293B" rx="12" stroke="#F59E0B" stroke-width="3" stroke-dasharray="8,4"/>
+  <circle cx="1270" cy="300" r="20" fill="#F59E0B"/>
+  <text x="1270" y="308" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">5</text>
+  <text x="1330" y="305" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#F59E0B">INTEREST</text>
+  <text x="1330" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Express</text>
+  <text x="1330" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">interest</text>
+
+  <!-- Arrow (dashed) -->
+  <line x1="1440" y1="325" x2="1480" y2="325" stroke="#EF4444" stroke-width="3" stroke-dasharray="8,4"/>
+  <polygon points="1480,320 1495,325 1480,330" fill="#EF4444"/>
+
+  <!-- Step 6: DEAL - Red -->
+  <rect x="1500" y="260" width="180" height="130" fill="#1E293B" rx="12" stroke="#EF4444" stroke-width="3" stroke-dasharray="8,4"/>
+  <circle cx="1545" cy="300" r="20" fill="#EF4444"/>
+  <text x="1545" y="308" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">6</text>
+  <text x="1590" y="305" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#EF4444">DEAL</text>
+  <text x="1590" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Close</text>
+  <text x="1590" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">transaction</text>
+
+  <!-- Arrow (dashed) -->
+  <line x1="1680" y1="325" x2="1720" y2="325" stroke="#EF4444" stroke-width="3" stroke-dasharray="8,4"/>
+  <polygon points="1720,320 1735,325 1720,330" fill="#EF4444"/>
+
+  <!-- Step 7: REVENUE - Red -->
+  <rect x="1740" y="260" width="80" height="130" fill="#1E293B" rx="12" stroke="#EF4444" stroke-width="3" stroke-dasharray="8,4"/>
+  <circle cx="1780" cy="300" r="20" fill="#EF4444"/>
+  <text x="1780" y="308" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">7</text>
+  <text x="1780" y="350" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#EF4444" text-anchor="middle">FEE</text>
+
+  <!-- Legend -->
+  <rect x="100" y="420" width="20" height="20" fill="#1E293B" rx="4" stroke="#22C55E" stroke-width="3"/>
+  <text x="130" y="436" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Platform supports</text>
+
+  <rect x="320" y="420" width="20" height="20" fill="#1E293B" rx="4" stroke="#F59E0B" stroke-width="3" stroke-dasharray="4,2"/>
+  <text x="350" y="436" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">"Future" feature</text>
+
+  <rect x="520" y="420" width="20" height="20" fill="#1E293B" rx="4" stroke="#EF4444" stroke-width="3" stroke-dasharray="4,2"/>
+  <text x="550" y="436" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Not in platform / out of scope</text>
+
+  <!-- Technology Coverage Table -->
+  <text x="100" y="510" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#14B8A6">Technology Coverage by Business Step</text>
+
+  <!-- Table -->
+  <rect x="100" y="540" width="1720" height="50" fill="#1E293B" rx="8"/>
+  <text x="300" y="572" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#9CA3AF" text-anchor="middle">Step</text>
+  <text x="700" y="572" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#9CA3AF" text-anchor="middle">Current Platform</text>
+  <text x="1150" y="572" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#9CA3AF" text-anchor="middle">Develutions Progress</text>
+  <text x="1600" y="572" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#9CA3AF" text-anchor="middle">Source</text>
+
+  <!-- Row 1 -->
+  <rect x="100" y="590" width="1720" height="45" fill="#0F172A"/>
+  <text x="300" y="618" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">1-3. Source → List → Approve</text>
+  <circle cx="600" cy="612" r="8" fill="#22C55E"/>
+  <text x="700" y="618" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">Working</text>
+  <text x="1150" y="618" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#22C55E" text-anchor="middle">85% Property Display</text>
+  <text x="1600" y="618" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#64748B" text-anchor="middle">Develutions status, 27 Dec</text>
+
+  <!-- Row 2 -->
+  <rect x="100" y="635" width="1720" height="45" fill="#1E293B"/>
+  <text x="300" y="663" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">4. Discover (with calculations)</text>
+  <circle cx="600" cy="657" r="8" fill="#F59E0B"/>
+  <text x="700" y="663" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">Bugs reported (ROI, bond)</text>
+  <text x="1150" y="663" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#EF4444" text-anchor="middle">35% Financial Calculations</text>
+  <text x="1600" y="663" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#64748B" text-anchor="middle">Develutions status, 27 Dec</text>
+
+  <!-- Row 3 -->
+  <rect x="100" y="680" width="1720" height="45" fill="#0F172A"/>
+  <text x="300" y="708" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">5. Express Interest</text>
+  <circle cx="600" cy="702" r="8" fill="#F59E0B"/>
+  <text x="700" y="708" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">"Future" feature</text>
+  <text x="1150" y="708" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#64748B" text-anchor="middle">Not in scope</text>
+  <text x="1600" y="708" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#64748B" text-anchor="middle">Requirements Spec</text>
+
+  <!-- Row 4 -->
+  <rect x="100" y="725" width="1720" height="45" fill="#1E293B"/>
+  <text x="300" y="753" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">Lead Management (CRM)</text>
+  <circle cx="600" cy="747" r="8" fill="#EF4444"/>
+  <text x="700" y="753" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">Broken (ActiveCampaign sync)</text>
+  <text x="1150" y="753" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#EF4444" text-anchor="middle">0% CRM Integrations</text>
+  <text x="1600" y="753" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#64748B" text-anchor="middle">Develutions status, 27 Dec</text>
+
+  <!-- Row 5 -->
+  <rect x="100" y="770" width="1720" height="45" fill="#0F172A"/>
+  <text x="300" y="798" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">6. Deal Facilitation</text>
+  <circle cx="600" cy="792" r="8" fill="#EF4444"/>
+  <text x="700" y="798" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">Not in platform</text>
+  <text x="1150" y="798" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#64748B" text-anchor="middle">Not in scope</text>
+  <text x="1600" y="798" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#64748B" text-anchor="middle">Requirements Spec</text>
+
+  <!-- Row 6 -->
+  <rect x="100" y="815" width="1720" height="45" fill="#1E293B" rx="0 0 8 8"/>
+  <text x="300" y="843" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">7. Fee Collection</text>
+  <circle cx="600" cy="837" r="8" fill="#EF4444"/>
+  <text x="700" y="843" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">Not in platform</text>
+  <text x="1150" y="843" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#64748B" text-anchor="middle">Not in scope</text>
+  <text x="1600" y="843" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#64748B" text-anchor="middle">Requirements Spec</text>
+
+  <!-- Key Observation -->
+  <rect x="100" y="890" width="1720" height="80" fill="#EF4444" fill-opacity="0.1" rx="12" stroke="#EF4444" stroke-width="1"/>
+  <text x="140" y="930" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#EF4444">Observation:</text>
+  <text x="340" y="930" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#FFFFFF">The platform supports property discovery but does not support how InvestRand generates revenue.</text>
+  <text x="140" y="960" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Steps 5-7 (Interest → Deal → Fee) are where the business model is executed. These remain gaps.</text>
+
+  <!-- Page number -->
+  <text x="1870" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#475569" text-anchor="end">5</text>
+</svg>

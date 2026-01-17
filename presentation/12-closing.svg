@@ -1,0 +1,60 @@
+<svg viewBox="0 0 1920 1080" width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Decorative curves -->
+  <path d="M0,800 Q400,750 800,820 T1600,780 T1920,800" fill="none" stroke="#14B8A6" stroke-width="2" opacity="0.3"/>
+  <path d="M0,850 Q500,800 1000,870 T1920,850" fill="none" stroke="#14B8A6" stroke-width="1.5" opacity="0.2"/>
+
+  <!-- Main title -->
+  <text x="960" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="80" font-weight="700" fill="#FFFFFF" text-anchor="middle">Key Takeaways</text>
+  <rect x="680" y="290" width="560" height="8" fill="url(#accentGradient)" rx="4"/>
+
+  <!-- Three key takeaways -->
+  <rect x="150" y="380" width="500" height="240" fill="#1E293B" rx="20"/>
+  <rect x="150" y="380" width="12" height="240" fill="#14B8A6" rx="6"/>
+  <text x="200" y="450" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700" fill="#14B8A6">1</text>
+  <text x="280" y="455" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="600" fill="#FFFFFF">Business First</text>
+  <text x="200" y="530" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#9CA3AF">Tech problems are symptoms of a</text>
+  <text x="200" y="575" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#9CA3AF">business scaling challenge</text>
+
+  <rect x="710" y="380" width="500" height="240" fill="#1E293B" rx="20"/>
+  <rect x="710" y="380" width="12" height="240" fill="#22C55E" rx="6"/>
+  <text x="760" y="450" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700" fill="#22C55E">2</text>
+  <text x="840" y="455" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="600" fill="#FFFFFF">Partnership</text>
+  <text x="760" y="530" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#9CA3AF">Ezra is open to fractional</text>
+  <text x="760" y="575" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#9CA3AF">ownership, not just vendors</text>
+
+  <rect x="1270" y="380" width="500" height="240" fill="#1E293B" rx="20"/>
+  <rect x="1270" y="380" width="12" height="240" fill="#3B82F6" rx="6"/>
+  <text x="1320" y="450" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700" fill="#3B82F6">3</text>
+  <text x="1400" y="455" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="600" fill="#FFFFFF">Right-Sized</text>
+  <text x="1320" y="530" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#9CA3AF">Quick wins + stabilisation first</text>
+  <text x="1320" y="575" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#9CA3AF">Prove value, then expand</text>
+
+  <!-- Objective -->
+  <rect x="150" y="680" width="1620" height="140" fill="#14B8A6" fill-opacity="0.1" rx="20" stroke="#14B8A6" stroke-width="3"/>
+  <text x="960" y="745" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="600" fill="#FFFFFF" text-anchor="middle">Meeting Objective</text>
+  <text x="960" y="800" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#9CA3AF" text-anchor="middle">Validate thesis, understand Ezra's real needs, explore genuine partnership</text>
+
+  <!-- Company badge -->
+  <rect x="660" y="870" width="600" height="80" fill="#1E293B" rx="40"/>
+  <text x="960" y="925" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="600" fill="#14B8A6" text-anchor="middle">AMPERSAND INSIGHTS</text>
+
+  <!-- Tagline -->
+  <text x="960" y="1000" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#64748B" text-anchor="middle" font-style="italic">"Built on trust. Proven through delivery."</text>
+
+  <!-- Slide number -->
+  <text x="1870" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#475569" text-anchor="end">12</text>
+</svg>

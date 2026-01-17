@@ -1,0 +1,59 @@
+<svg viewBox="0 0 1920 1080" width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Slide Title -->
+  <text x="100" y="100" font-family="system-ui, -apple-system, sans-serif" font-size="80" font-weight="700" fill="#FFFFFF">Paths to R10M Revenue</text>
+  <rect x="100" y="120" width="600" height="6" fill="url(#accentGradient)" rx="3"/>
+  <text x="100" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="36" fill="#9CA3AF">Four ways InvestRand could 5x their revenue</text>
+
+  <!-- Four path cards - 2x2 grid -->
+  <!-- Path 1 -->
+  <rect x="100" y="230" width="820" height="300" fill="#1E293B" rx="24"/>
+  <rect x="100" y="230" width="16" height="300" fill="#14B8A6" rx="8"/>
+  <text x="160" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="600" fill="#14B8A6">PATH 1: SCALE THE FUNNEL</text>
+  <text x="160" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="700" fill="#FFFFFF">5,000 users</text>
+  <text x="160" y="440" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#9CA3AF">at current 5% conversion = 250 transactions</text>
+  <text x="160" y="495" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#FFFFFF">= ~R10M revenue</text>
+
+  <!-- Path 2 -->
+  <rect x="1000" y="230" width="820" height="300" fill="#1E293B" rx="24"/>
+  <rect x="1000" y="230" width="16" height="300" fill="#22C55E" rx="8"/>
+  <text x="1060" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="600" fill="#22C55E">PATH 2: IMPROVE CONVERSION</text>
+  <text x="1060" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="700" fill="#FFFFFF">20% conversion</text>
+  <text x="1060" y="440" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#9CA3AF">from existing 1,000 users = 200 transactions</text>
+  <text x="1060" y="495" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#FFFFFF">= ~R8-10M revenue</text>
+
+  <!-- Path 3 -->
+  <rect x="100" y="570" width="820" height="300" fill="#1E293B" rx="24"/>
+  <rect x="100" y="570" width="16" height="300" fill="#3B82F6" rx="8"/>
+  <text x="160" y="640" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="600" fill="#3B82F6">PATH 3: MOVE UPMARKET</text>
+  <text x="160" y="720" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="700" fill="#FFFFFF">R2M+ properties</text>
+  <text x="160" y="780" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#9CA3AF">Focus on higher-value deals</text>
+  <text x="160" y="835" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#FFFFFF">= R100k+ per deal, fewer deals needed</text>
+
+  <!-- Path 4 -->
+  <rect x="1000" y="570" width="820" height="300" fill="#1E293B" rx="24"/>
+  <rect x="1000" y="570" width="16" height="300" fill="#F59E0B" rx="8"/>
+  <text x="1060" y="640" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="600" fill="#F59E0B">PATH 4: SYSTEMISE SALES</text>
+  <text x="1060" y="720" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="700" fill="#FFFFFF">Reduce founder dependency</text>
+  <text x="1060" y="780" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#9CA3AF">CRM automation + playbooks</text>
+  <text x="1060" y="835" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#FFFFFF">= Scalable without Ezra in every deal</text>
+
+  <!-- Bottom note -->
+  <text x="100" y="960" font-family="system-ui, -apple-system, sans-serif" font-size="34" fill="#EF4444">Note: A R660k full-stack rewrite doesn't directly address any of these growth paths.</text>
+
+  <!-- Slide number -->
+  <text x="1870" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#475569" text-anchor="end">6</text>
+</svg>

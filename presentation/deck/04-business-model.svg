@@ -1,0 +1,93 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Title -->
+  <text x="100" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">Understanding the Business Model</text>
+  <rect x="100" y="110" width="400" height="4" fill="url(#accentGradient)" rx="2"/>
+  <text x="100" y="155" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#9CA3AF">What InvestRand actually is — based on evidence</text>
+
+  <!-- Key Finding -->
+  <rect x="100" y="190" width="1720" height="90" fill="#14B8A6" fill-opacity="0.15" rx="12" stroke="#14B8A6" stroke-width="2"/>
+  <text x="140" y="235" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="600" fill="#14B8A6">Key Finding:</text>
+  <text x="360" y="235" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="#FFFFFF">InvestRand is a property sourcing marketplace, not a fractional investment platform.</text>
+  <text x="140" y="265" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Source: investrand.co.za — "With investRand, you get full ownership of your property—no fractional investments, no hidden costs."</text>
+
+  <!-- Comparison Table -->
+  <text x="100" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#14B8A6">This Distinction Matters</text>
+
+  <!-- Table Header -->
+  <rect x="100" y="370" width="1720" height="50" fill="#1E293B" rx="8"/>
+  <text x="450" y="402" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#9CA3AF" text-anchor="middle">Aspect</text>
+  <text x="900" y="402" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#9CA3AF" text-anchor="middle">Fractional Platform (e.g., EasyProperties)</text>
+  <text x="1470" y="402" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#14B8A6" text-anchor="middle">InvestRand (Actual Model)</text>
+
+  <!-- Table Rows -->
+  <rect x="100" y="425" width="1720" height="50" fill="#0F172A" rx="0"/>
+  <text x="450" y="457" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">Ownership</text>
+  <text x="900" y="457" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF" text-anchor="middle">Fractional shares in SPV</text>
+  <text x="1470" y="457" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">Full property ownership</text>
+
+  <rect x="100" y="475" width="1720" height="50" fill="#1E293B" rx="0"/>
+  <text x="450" y="507" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">Minimum investment</text>
+  <text x="900" y="507" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF" text-anchor="middle">As low as R1</text>
+  <text x="1470" y="507" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">Full property deposit/bond</text>
+
+  <rect x="100" y="525" width="1720" height="50" fill="#0F172A" rx="0"/>
+  <text x="450" y="557" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">Revenue model</text>
+  <text x="900" y="557" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF" text-anchor="middle">Management fees on pooled funds</text>
+  <text x="1470" y="557" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">5% sourcing fee per transaction</text>
+
+  <rect x="100" y="575" width="1720" height="50" fill="#1E293B" rx="0"/>
+  <text x="450" y="607" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">Regulatory framework</text>
+  <text x="900" y="607" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF" text-anchor="middle">FSP license, CISCA registration</text>
+  <text x="1470" y="607" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">Potentially PPRA, possibly FAIS</text>
+
+  <!-- Business Metrics -->
+  <text x="100" y="700" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#14B8A6">Stated Business Metrics</text>
+  <text x="560" y="700" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#64748B">(Source: Disrupt Africa, 26 March 2024)</text>
+
+  <rect x="100" y="730" width="260" height="100" fill="#1E293B" rx="12"/>
+  <text x="230" y="775" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="#14B8A6" text-anchor="middle">1,000+</text>
+  <text x="230" y="810" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF" text-anchor="middle">Users</text>
+
+  <rect x="390" y="730" width="260" height="100" fill="#1E293B" rx="12"/>
+  <text x="520" y="775" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="#14B8A6" text-anchor="middle">60%</text>
+  <text x="520" y="810" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF" text-anchor="middle">Repeat customers</text>
+
+  <rect x="680" y="730" width="260" height="100" fill="#1E293B" rx="12"/>
+  <text x="810" y="775" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="#14B8A6" text-anchor="middle">R1M+</text>
+  <text x="810" y="810" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF" text-anchor="middle">First year revenue</text>
+
+  <rect x="970" y="730" width="260" height="100" fill="#1E293B" rx="12"/>
+  <text x="1100" y="775" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="#14B8A6" text-anchor="middle">33</text>
+  <text x="1100" y="810" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF" text-anchor="middle">Median customer age</text>
+
+  <rect x="1260" y="730" width="260" height="100" fill="#1E293B" rx="12"/>
+  <text x="1390" y="775" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="#14B8A6" text-anchor="middle">~50%</text>
+  <text x="1390" y="810" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF" text-anchor="middle">First-time investors</text>
+
+  <rect x="1550" y="730" width="270" height="100" fill="#14B8A6" fill-opacity="0.15" rx="12" stroke="#14B8A6" stroke-width="1"/>
+  <text x="1685" y="770" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#14B8A6" text-anchor="middle">Profitable</text>
+  <text x="1685" y="805" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF" text-anchor="middle">Since inception, bootstrapped</text>
+
+  <!-- Revenue Model -->
+  <text x="100" y="900" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF">Revenue Model:</text>
+  <text x="320" y="900" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#9CA3AF">5% sourcing fee (minimum R30,000) per property transaction</text>
+
+  <text x="100" y="940" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#64748B">Example: R2,000,000 property → R100,000 sourcing fee to InvestRand</text>
+
+  <!-- Page number -->
+  <text x="1870" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#475569" text-anchor="end">4</text>
+</svg>

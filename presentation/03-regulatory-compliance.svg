@@ -1,0 +1,140 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+    <linearGradient id="amberGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B"/>
+      <stop offset="100%" style="stop-color:#D97706"/>
+    </linearGradient>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6"/>
+      <stop offset="100%" style="stop-color:#2563EB"/>
+    </linearGradient>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#22C55E"/>
+      <stop offset="100%" style="stop-color:#16A34A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Title -->
+  <text x="100" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">Regulatory &amp; Compliance Considerations</text>
+  <rect x="100" y="100" width="500" height="4" fill="url(#amberGradient)" rx="2"/>
+  <text x="100" y="140" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#9CA3AF">Questions to verify before proceeding with any technology investment</text>
+
+  <!-- Key Finding Box -->
+  <rect x="100" y="180" width="1720" height="80" fill="#14B8A6" fill-opacity="0.1" rx="12" stroke="#14B8A6" stroke-width="2"/>
+  <text x="140" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#14B8A6">KEY FINDING:</text>
+  <text x="340" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#FFFFFF">InvestRand is a property sourcing marketplace with full ownership transfer — NOT fractional investment.</text>
+  <text x="140" y="248" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">This changes the regulatory analysis. Different from EasyProperties (fractional SPV model) or Crowdprop (crowdfunding).</text>
+
+  <!-- Three Columns -->
+
+  <!-- Column 1: PPRA -->
+  <rect x="100" y="290" width="540" height="480" fill="#1E293B" rx="16"/>
+  <rect x="100" y="290" width="540" height="60" fill="url(#amberGradient)" rx="16"/>
+  <rect x="100" y="340" width="540" height="10" fill="#1E293B"/>
+  <text x="370" y="332" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">PPRA / Property Practitioners</text>
+
+  <text x="130" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#F59E0B">The Question</text>
+  <text x="130" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Is the 5% "sourcing fee" actually</text>
+  <text x="130" y="445" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">commission on property sales?</text>
+
+  <text x="130" y="490" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#14B8A6">Requirements</text>
+  <circle cx="145" cy="520" r="5" fill="#9CA3AF"/>
+  <text x="160" y="526" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#9CA3AF">Property Practitioners Act 22 of 2019</text>
+  <circle cx="145" cy="550" r="5" fill="#9CA3AF"/>
+  <text x="160" y="556" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#9CA3AF">Fidelity Fund Certificate (FFC) required</text>
+  <circle cx="145" cy="580" r="5" fill="#9CA3AF"/>
+  <text x="160" y="586" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#9CA3AF">"Spotter's fee" exception is narrow</text>
+
+  <text x="130" y="630" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#EF4444">To Verify</text>
+  <circle cx="145" cy="660" r="5" fill="#EF4444"/>
+  <text x="160" y="666" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#FFFFFF">Is InvestRand PPRA-registered?</text>
+  <circle cx="145" cy="690" r="5" fill="#EF4444"/>
+  <text x="160" y="696" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#FFFFFF">Is Ezra (ex-estate agent) registered?</text>
+  <circle cx="145" cy="720" r="5" fill="#EF4444"/>
+  <text x="160" y="726" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#FFFFFF">Are sourcing agents registered?</text>
+
+  <!-- Column 2: FSCA -->
+  <rect x="690" y="290" width="540" height="480" fill="#1E293B" rx="16"/>
+  <rect x="690" y="290" width="540" height="60" fill="url(#blueGradient)" rx="16"/>
+  <rect x="690" y="340" width="540" height="10" fill="#1E293B"/>
+  <text x="960" y="332" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">FSCA / Financial Services</text>
+
+  <text x="720" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#3B82F6">The Question</text>
+  <text x="720" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Is InvestRand providing</text>
+  <text x="720" y="445" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">financial advice?</text>
+
+  <text x="720" y="490" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#14B8A6">Requirements</text>
+  <circle cx="735" cy="520" r="5" fill="#9CA3AF"/>
+  <text x="750" y="526" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#9CA3AF">FAIS Act - FSP license required</text>
+  <circle cx="735" cy="550" r="5" fill="#9CA3AF"/>
+  <text x="750" y="556" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#9CA3AF">Category I for non-discretionary advice</text>
+  <circle cx="735" cy="580" r="5" fill="#9CA3AF"/>
+  <text x="750" y="586" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#9CA3AF">EasyProperties has FSP 22588</text>
+
+  <text x="720" y="630" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#EF4444">Platform Activities</text>
+  <circle cx="735" cy="660" r="5" fill="#EF4444"/>
+  <text x="750" y="666" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#FFFFFF">Calculates ROI, bond repayments</text>
+  <circle cx="735" cy="690" r="5" fill="#EF4444"/>
+  <text x="750" y="696" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#FFFFFF">Presents investment projections</text>
+  <circle cx="735" cy="720" r="5" fill="#EF4444"/>
+  <text x="750" y="726" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#FFFFFF">Connects with financing options</text>
+
+  <!-- Column 3: FICA/Other -->
+  <rect x="1280" y="290" width="540" height="480" fill="#1E293B" rx="16"/>
+  <rect x="1280" y="290" width="540" height="60" fill="url(#greenGradient)" rx="16"/>
+  <rect x="1280" y="340" width="540" height="10" fill="#1E293B"/>
+  <text x="1550" y="332" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">Other Compliance</text>
+
+  <text x="1310" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#22C55E">FICA</text>
+  <text x="1310" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Property transactions > R25,000</text>
+  <text x="1310" y="445" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">require FICA compliance (KYC/AML)</text>
+
+  <text x="1310" y="490" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#22C55E">POPIA</text>
+  <text x="1310" y="520" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Personal data handling</text>
+  <text x="1310" y="545" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Privacy policy review needed</text>
+
+  <text x="1310" y="590" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#22C55E">CISCA (Not Applicable)</text>
+  <text x="1310" y="620" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Full ownership model = no pooled funds</text>
+  <text x="1310" y="645" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Different from fractional platforms</text>
+
+  <text x="1310" y="690" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#14B8A6">Alternative: Stokvel Model</text>
+  <text x="1310" y="720" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Exempt from Banks Act, FAIS, NCA</text>
+  <text x="1310" y="745" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Register with NASASA if > R100k</text>
+
+  <!-- Bottom Row: Competitor Comparison -->
+  <text x="100" y="820" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#14B8A6">Competitor Structures</text>
+
+  <rect x="100" y="850" width="540" height="120" fill="#1E293B" rx="12"/>
+  <text x="130" y="890" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">EasyProperties (Purple Group)</text>
+  <text x="130" y="920" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">SPV structure, fractional shares | FSP License 22588</text>
+  <text x="130" y="950" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">No minimum investment | 5-7 year period</text>
+
+  <rect x="690" y="850" width="540" height="120" fill="#1E293B" rx="12"/>
+  <text x="720" y="890" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">Crowdprop</text>
+  <text x="720" y="920" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Property crowdfunding | R10,000 minimum</text>
+  <text x="720" y="950" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">5% capital raise + 5% management fee</text>
+
+  <rect x="1280" y="850" width="540" height="120" fill="#14B8A6" fill-opacity="0.1" rx="12" stroke="#14B8A6" stroke-width="2"/>
+  <text x="1310" y="890" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#14B8A6">InvestRand (Different Model)</text>
+  <text x="1310" y="920" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Full ownership transfer | 5% sourcing fee</text>
+  <text x="1310" y="950" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Target: First-time investors | Median age: 33</text>
+
+  <!-- Recommendation -->
+  <rect x="100" y="990" width="1720" height="60" fill="#F59E0B" fill-opacity="0.1" rx="8" stroke="#F59E0B" stroke-width="1"/>
+  <text x="140" y="1028" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#F59E0B">RECOMMENDATION:</text>
+  <text x="420" y="1028" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Verify regulatory position with compliance attorney before any technology investment decision.</text>
+
+  <!-- Footer -->
+  <text x="1870" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#475569" text-anchor="end">3</text>
+</svg>

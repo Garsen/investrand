@@ -1,0 +1,106 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+    <linearGradient id="tealGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#0D9488"/>
+    </linearGradient>
+    <linearGradient id="redGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#EF4444"/>
+      <stop offset="100%" style="stop-color:#DC2626"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Title -->
+  <text x="100" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">Develutions Progress Assessment</text>
+  <rect x="100" y="110" width="400" height="4" fill="url(#accentGradient)" rx="2"/>
+  <text x="100" y="155" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#9CA3AF">Based on their self-reported status — Source: Develutions email, 27 December 2025</text>
+
+  <!-- Claimed Overall Progress -->
+  <rect x="100" y="190" width="500" height="120" fill="#1E293B" rx="12"/>
+  <text x="140" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF">Claimed Overall Progress:</text>
+  <text x="140" y="285" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="700" fill="#14B8A6">55-60%</text>
+
+  <!-- But... -->
+  <rect x="650" y="190" width="1170" height="120" fill="#F59E0B" fill-opacity="0.1" rx="12" stroke="#F59E0B" stroke-width="2"/>
+  <text x="700" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#F59E0B">This figure is unverified.</text>
+  <text x="700" y="275" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">We have not seen the code. This is Develutions' self-assessment.</text>
+  <text x="700" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Recommendation: Request code access or demonstration before accepting this claim.</text>
+
+  <!-- Progress Breakdown -->
+  <text x="100" y="370" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#14B8A6">Progress Breakdown (from Develutions' Report)</text>
+
+  <!-- Infrastructure Column -->
+  <rect x="100" y="400" width="860" height="380" fill="#1E293B" rx="12"/>
+  <rect x="100" y="400" width="860" height="50" fill="url(#tealGradient)" rx="12"/>
+  <rect x="100" y="440" width="860" height="10" fill="#1E293B"/>
+  <text x="530" y="435" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF" text-anchor="middle">Infrastructure (High Progress)</text>
+
+  <!-- Progress bars - Infrastructure -->
+  <text x="140" y="490" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Frontend Modernisation</text>
+  <rect x="140" y="505" width="600" height="24" fill="#0F172A" rx="4"/>
+  <rect x="140" y="505" width="480" height="24" fill="url(#tealGradient)" rx="4"/>
+  <text x="760" y="522" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#14B8A6">80%</text>
+
+  <text x="140" y="560" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Backend Modernisation</text>
+  <rect x="140" y="575" width="600" height="24" fill="#0F172A" rx="4"/>
+  <rect x="140" y="575" width="450" height="24" fill="url(#tealGradient)" rx="4"/>
+  <text x="760" y="592" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#14B8A6">75%</text>
+
+  <text x="140" y="630" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Property Display</text>
+  <rect x="140" y="645" width="600" height="24" fill="#0F172A" rx="4"/>
+  <rect x="140" y="645" width="510" height="24" fill="url(#tealGradient)" rx="4"/>
+  <text x="760" y="662" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#14B8A6">85%</text>
+
+  <text x="140" y="700" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">User Management</text>
+  <rect x="140" y="715" width="600" height="24" fill="#0F172A" rx="4"/>
+  <rect x="140" y="715" width="360" height="24" fill="url(#tealGradient)" rx="4"/>
+  <text x="760" y="732" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#14B8A6">60%</text>
+
+  <!-- Business Functions Column -->
+  <rect x="1000" y="400" width="820" height="380" fill="#1E293B" rx="12"/>
+  <rect x="1000" y="400" width="820" height="50" fill="url(#redGradient)" rx="12"/>
+  <rect x="1000" y="440" width="820" height="10" fill="#1E293B"/>
+  <text x="1410" y="435" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF" text-anchor="middle">Business Functions (Low/No Progress)</text>
+
+  <!-- Progress bars - Business -->
+  <text x="1040" y="490" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Financial Calculations</text>
+  <text x="1040" y="510" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#64748B">(Core value proposition — ROI, bond, yield)</text>
+  <rect x="1040" y="525" width="560" height="24" fill="#0F172A" rx="4"/>
+  <rect x="1040" y="525" width="196" height="24" fill="url(#redGradient)" rx="4"/>
+  <text x="1620" y="542" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#EF4444">35%</text>
+
+  <text x="1040" y="590" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">CRM Integrations</text>
+  <text x="1040" y="610" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#64748B">(How leads are managed — ActiveCampaign, Notion)</text>
+  <rect x="1040" y="625" width="560" height="24" fill="#0F172A" rx="4"/>
+  <text x="1620" y="642" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#EF4444">0%</text>
+
+  <text x="1040" y="700" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Deal Facilitation</text>
+  <rect x="1040" y="715" width="560" height="24" fill="#0F172A" rx="4"/>
+  <text x="1260" y="732" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#64748B">NOT IN SCOPE</text>
+
+  <text x="1040" y="770" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Fee Collection</text>
+  <rect x="1040" y="785" width="560" height="24" fill="#0F172A" rx="4"/>
+  <text x="1260" y="802" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#64748B">NOT IN SCOPE</text>
+
+  <!-- Analysis Box -->
+  <text x="100" y="840" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#14B8A6">Analysis</text>
+
+  <rect x="100" y="865" width="1720" height="120" fill="#1E293B" rx="12"/>
+  <text x="140" y="910" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#FFFFFF">The 55-60% overall figure is achieved through strong infrastructure progress.</text>
+  <text x="140" y="945" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#FFFFFF">The functions that directly support revenue generation remain incomplete or out of scope.</text>
+  <text x="140" y="975" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Question: How will this rebuild enable InvestRand to scale if the business-critical functions are not addressed?</text>
+
+  <!-- Page number -->
+  <text x="1870" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#475569" text-anchor="end">6</text>
+</svg>
