@@ -93,18 +93,69 @@ SOURCING → LISTING → APPROVAL → DISCOVERY → INTEREST → DEAL → REVENU
 
 **The platform currently supports steps 1-4. Steps 5-7 are either incomplete or not in scope.**
 
-### 2.3 Stated Business Metrics
+### 2.3 Understanding "Progress" — A Layperson's Guide
 
-From Disrupt Africa (March 2024):
-- 1,000+ users
-- 60% repeat customers
-- R1M+ revenue in first year
-- Profitable since inception
-- Bootstrapped (no external funding)
-- Median customer age: 33 years
-- ~50% first-time property investors
+To understand what Develutions' progress numbers mean in practical terms, consider this analogy:
 
-*Source: Disrupt Africa, 26 March 2024*
+**Building a Shop**
+
+| Component | What It Represents | InvestRand Equivalent | Status |
+|-----------|-------------------|----------------------|--------|
+| Foundation & Plumbing | Infrastructure that holds everything together | Backend systems, databases, authentication | 75-80% |
+| Storefront & Signage | What customers see when they arrive | Frontend interface, property listings | 80-85% |
+| Stock & Inventory | Products on the shelves to sell | Financial calculations, investment tools | 35% |
+| Cash Register | How you collect money | CRM, deal facilitation, fee collection | 0% |
+
+**The key insight:** You can have a beautiful building with professional signage, but without stock to sell or a way to collect payment, you cannot operate a business.
+
+This is the current state of the InvestRand platform rebuild:
+- The **building looks professional** (frontend modernisation at 80%)
+- The **plumbing works** (backend at 75%)
+- The **shelves are mostly empty** (financial calculations at 35%)
+- There is **no cash register** (CRM and revenue functions at 0%)
+
+### 2.4 Why Business Understanding Comes First
+
+Industry research consistently shows that technology projects fail most often due to poor requirements gathering and misalignment with business needs — not technical complexity.
+
+**Project Failure Statistics:**
+
+| Finding | Source |
+|---------|--------|
+| Only 16.2% of IT projects delivered on time, on budget, with full scope | Standish Group CHAOS Report |
+| 31.1% of software projects are cancelled before completion | Standish Group CHAOS Report |
+| Projects with defined requirements are 52% more likely to succeed | Standish Group Research |
+| Requirements Engineering is among the top key success factors for IT projects | PMI, Standish Group |
+
+*Sources: Standish Group CHAOS Report; PMI Agile Practice Guide*
+
+**What this means for InvestRand:**
+
+The Develutions project focuses on modernising infrastructure (React, Spring Boot, TypeScript) but the business requirements — how investors actually complete transactions, how fees are collected, how deals are closed — remain undefined or out of scope.
+
+This is a recognised anti-pattern: building technology containers before understanding what they need to contain.
+
+### 2.5 Stated Business Metrics (Verified)
+
+From press coverage (Disrupt Africa, IOL — March 2024):
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| Investment opportunities facilitated | R600M (cumulative over 3 years) | Disrupt Africa, March 2024 |
+| Registered users | 1,000+ since March 2023 | Disrupt Africa, March 2024 |
+| Repeat customers | 60% | Disrupt Africa, March 2024 |
+| Revenue (Year 1) | ~R1M | Disrupt Africa, March 2024 |
+| Revenue (Year 2) | ~R2M (estimated) | Disrupt Africa, March 2024 |
+| Median customer age | 33 years | Disrupt Africa, March 2024 |
+| First-time investors | ~50% | Disrupt Africa, March 2024 |
+| Revenue model | 5% sourcing fee (minimum R30,000) | Disrupt Africa, March 2024 |
+| Funding status | Bootstrapped, profitable since inception | Disrupt Africa, March 2024 |
+
+**Important clarification:** The R600M figure represents investment opportunities facilitated to date — not a future target. This is a historical achievement, not a growth projection.
+
+**Question for Ezra:** What are the forward-looking growth targets? How does technology enable scaling beyond R600M?
+
+*Sources: Disrupt Africa, "How InvestRand is helping young South Africans get clever with property investments", 26 March 2024; IOL, "Emerging black entrepreneur democratising wealth creation", March 2024*
 
 ---
 
@@ -207,6 +258,86 @@ This is how leads are managed and deals are closed. It remains at 0%.
 
 *Source: Ezra Rasethe email, 18 November 2025; Develutions status report, 27 December 2025*
 
+### 4.5 The Sequencing Problem
+
+A fundamental question emerges from Develutions' progress numbers:
+
+**How can the frontend (80%) and backend (75%) be nearly complete when business logic (35%) is barely started?**
+
+In well-architected systems, the sequence typically flows:
+1. **Business requirements** define what the system must do
+2. **Business logic** implements the core rules (calculations, workflows, validations)
+3. **Backend services** expose the business logic through APIs
+4. **Frontend** presents the business logic to users
+
+Develutions appears to have inverted this sequence:
+1. Frontend built (80%)
+2. Backend infrastructure built (75%)
+3. Business logic partially scaffolded (35%)
+4. Business requirements still being clarified
+
+**Risk:** When business logic is developed last, it often reveals that the infrastructure assumptions were wrong. This leads to:
+- Rework of "completed" frontend and backend components
+- Integration challenges between layers
+- The 80% and 75% figures may not represent actual progress toward a working system
+
+**Industry perspective:** The Standish Group notes that incomplete requirements and changing requirements are among the top causes of project failure.
+
+### 4.6 Stakeholder Visibility Gap
+
+**Finding:** There is no documented process for regular demonstrations of working software to Ezra.
+
+**Agile best practice (PMI, SAFe, Scrum Alliance):**
+
+| Practice | Cadence | Purpose |
+|----------|---------|---------|
+| Sprint Review/Demo | Every 2 weeks | Show completed work, gather feedback |
+| System Demo | Every iteration | Demonstrate integrated system progress |
+| Stakeholder review | Bi-weekly minimum | Ensure alignment with business needs |
+
+*Sources: PMI Agile Practice Guide; SAFe Framework; Atlassian Agile Ceremonies Guide*
+
+**The risk:**
+
+Without regular demonstrations of working software:
+- Progress claims cannot be verified
+- Misalignments accumulate undetected
+- The first time Ezra sees the complete system may be at handover
+- Costly rework if the delivered system does not match expectations
+
+**Question for Ezra:** When did you last see a demonstration of working features? Has Develutions conducted bi-weekly reviews?
+
+### 4.7 DevOps and Testing Assessment
+
+**What exists (from Develutions documentation):**
+
+| Component | Status | Notes |
+|-----------|--------|-------|
+| Docker containerisation | Present | Dockerfile in repository |
+| Zappa deployment (AWS Lambda) | Present | Current deployment method |
+| Vitest (frontend testing) | Present | Unit test framework |
+| Playwright (E2E testing) | Mentioned | End-to-end testing capability |
+| GitHub Actions | Partial | Some CI/CD automation |
+
+**What appears to be missing:**
+
+| Component | Status | Impact |
+|-----------|--------|--------|
+| Test-Driven Development (TDD) | Not documented | Tests written after code, coverage unknown |
+| Test coverage metrics | Not reported | Cannot verify quality of testing |
+| GraphQL testing | Incomplete | API layer may have untested paths |
+| Complete CI/CD pipeline | Partial | Manual deployment steps may exist |
+| Staging environment | Unknown | Testing may occur in production |
+
+**Why this matters:**
+
+For a financial platform handling property investments:
+- Untested financial calculations pose significant risk
+- Incomplete CI/CD means deployments are error-prone
+- Without coverage metrics, "35% complete" may include untested code
+
+**Recommendation:** Request Develutions' test coverage reports and CI/CD pipeline documentation.
+
 ---
 
 ## 5. Technology-Business Alignment
@@ -288,13 +419,47 @@ Develutions' assessment documents cite:
 | Data migration | Medium | MySQL → MySQL should be straightforward |
 | Integration recreation | Medium | ActiveCampaign, Telegram, S3 need new implementations |
 
-### 6.5 Questions for Develutions
+### 6.5 Mobile Readiness Assessment
+
+**Critical finding:** Mobile is not mentioned in any Develutions documentation.
+
+Neither the current Vue.js platform nor the proposed React/Spring Boot rebuild includes a mobile strategy. This is significant given InvestRand's target demographic.
+
+**Why mobile matters for InvestRand:**
+
+| Factor | Evidence | Source |
+|--------|----------|--------|
+| Median customer age | 33 years | Disrupt Africa, March 2024 |
+| Target demographic | Young professionals, first-time investors | InvestRand positioning |
+| Mobile engagement (25-34 age group) | 102.4 hours/month on mobile apps | Industry data, 2024 |
+| PropTech mobile impact | 32% faster deal closure for mobile-enabled platforms | PropTech industry analysis |
+| Fintech user behaviour | 35% of financial app users are aged 25-34 | Statista, 2019 |
+
+*Sources: Disrupt Africa; Industry mobile usage statistics; PropTech market reports*
+
+**Current stack assessment:**
+
+| Stack | Mobile Support | Notes |
+|-------|---------------|-------|
+| Current (Vue.js 2) | Responsive web only | No native mobile |
+| Proposed (React 18) | Responsive web only | No native mobile |
+| React Native | Not in scope | Would enable iOS/Android |
+| Progressive Web App (PWA) | Not mentioned | Middle-ground option |
+
+**The gap:**
+
+InvestRand's core users are mobile-first professionals in their early 30s. The platform rebuild focuses on desktop web technologies with no mobile roadmap. Competitors with mobile apps may capture this demographic.
+
+**Recommendation:** Define mobile strategy as part of any technology investment — whether PWA, React Native, or mobile-responsive web with offline capabilities.
+
+### 6.6 Questions for Develutions
 
 1. Why is full migration necessary rather than Vue 2 → Vue 3 with bug fixes?
 2. What specific technical issues in the current stack cannot be addressed incrementally?
 3. What is the data migration plan and rollback strategy?
 4. How will 3,800+ lines of business logic be verified in the new system?
 5. When is the realistic production-ready date given current progress?
+6. What is the mobile strategy for InvestRand's 33-year-old median customer?
 
 ---
 
@@ -386,6 +551,36 @@ Before evaluating any technology path:
 | Continue with Develutions | Complete the migration | Verify progress first; clarify business functionality scope |
 | Pause and reassess | Stop development, evaluate alternatives | Lower risk; may delay timeline |
 | Change direction | Different vendor or approach | Requires clear requirements definition |
+
+### 8.5 Code and IP Ownership
+
+**Finding:** Intellectual property ownership is not documented in the materials reviewed.
+
+**Why this matters:**
+
+| Question | Status | Risk if Unaddressed |
+|----------|--------|---------------------|
+| Who owns the current codebase? | Unknown | Ezra may not own his platform |
+| Who owns the rebuilt codebase? | Unknown | Develutions may retain ownership |
+| Can code be transferred to another vendor? | Unknown | Lock-in to current arrangement |
+| Are there licensing restrictions? | Unknown | Future flexibility limited |
+
+**Standard practice:**
+
+Software development agreements typically specify:
+- Work-for-hire provisions (client owns all deliverables)
+- Source code ownership and transfer conditions
+- Escrow arrangements for source code
+- Rights to derivative works
+
+**Questions for Ezra:**
+
+1. Has Develutions confirmed in writing that InvestRand owns the code?
+2. Is there a signed software development agreement?
+3. Does Ezra have access to the source code repository?
+4. What happens to the code if the relationship with Develutions ends?
+
+**Recommendation:** Review the Develutions contract (or obtain one if verbal agreement only) before further investment. Intellectual property ownership is foundational to any technology asset.
 
 ---
 

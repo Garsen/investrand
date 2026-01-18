@@ -8,6 +8,10 @@
       <stop offset="0%" style="stop-color:#14B8A6"/>
       <stop offset="100%" style="stop-color:#22C55E"/>
     </linearGradient>
+    <linearGradient id="arrowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
   </defs>
 
   <!-- Background -->
@@ -17,56 +21,108 @@
   <text x="100" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">Executive Summary</text>
   <rect x="100" y="110" width="320" height="4" fill="url(#accentGradient)" rx="2"/>
 
-  <!-- Key Finding Box -->
-  <rect x="100" y="160" width="1720" height="100" fill="#14B8A6" fill-opacity="0.1" rx="12" stroke="#14B8A6" stroke-width="2"/>
-  <text x="960" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#FFFFFF" text-anchor="middle">The platform rebuild does not address InvestRand's core business needs.</text>
-  <text x="960" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#9CA3AF" text-anchor="middle">Technology investment is focused on infrastructure while business-critical functions remain incomplete.</text>
+  <!-- Achievement + Growth visual -->
+  <rect x="100" y="150" width="1720" height="180" fill="#1E293B" rx="16"/>
 
-  <!-- Four Findings -->
-  <text x="100" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#14B8A6">Key Findings</text>
+  <!-- Current state box -->
+  <rect x="130" y="170" width="280" height="140" fill="#14B8A6" fill-opacity="0.15" rx="12" stroke="#14B8A6" stroke-width="2"/>
+  <text x="270" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#14B8A6" text-anchor="middle">CURRENT</text>
+  <text x="270" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="700" fill="#14B8A6" text-anchor="middle">R600M</text>
+  <text x="270" y="268" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#9CA3AF" text-anchor="middle">facilitated</text>
+  <text x="270" y="295" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF" text-anchor="middle">R2M/yr</text>
+
+  <!-- Arrow 1 -->
+  <polygon points="440,240 480,225 480,237 520,237 520,243 480,243 480,255" fill="url(#arrowGradient)"/>
+
+  <!-- R1B milestone box -->
+  <rect x="550" y="170" width="280" height="140" fill="#14B8A6" fill-opacity="0.15" rx="12" stroke="#14B8A6" stroke-width="2"/>
+  <text x="690" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#14B8A6" text-anchor="middle">AT R1B FACILITATED</text>
+  <text x="690" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="700" fill="#14B8A6" text-anchor="middle">R1B</text>
+  <text x="690" y="268" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#9CA3AF" text-anchor="middle">with improved conversion</text>
+  <text x="690" y="295" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF" text-anchor="middle">R6M/yr</text>
+
+  <!-- Arrow 2 -->
+  <polygon points="860,240 900,225 900,237 940,237 940,243 900,243 900,255" fill="url(#arrowGradient)"/>
+
+  <!-- R2B milestone box -->
+  <rect x="970" y="170" width="280" height="140" fill="#F59E0B" fill-opacity="0.15" rx="12" stroke="#F59E0B" stroke-width="2"/>
+  <text x="1110" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#F59E0B" text-anchor="middle">AT R2B FACILITATED</text>
+  <text x="1110" y="240" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="700" fill="#F59E0B" text-anchor="middle">R2B</text>
+  <text x="1110" y="268" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#9CA3AF" text-anchor="middle">scale target</text>
+  <text x="1110" y="295" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF" text-anchor="middle">R12M+/yr</text>
+
+  <!-- The opportunity -->
+  <text x="1320" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">The Opportunity:</text>
+  <text x="1320" y="235" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">With the right technology partner,</text>
+  <text x="1320" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">InvestRand can scale from</text>
+  <text x="1320" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#14B8A6">R170k/month → R1M+/month</text>
+
+  <!-- Core Finding Box -->
+  <rect x="100" y="350" width="1720" height="80" fill="#EF4444" fill-opacity="0.1" rx="12" stroke="#EF4444" stroke-width="2"/>
+  <text x="960" y="395" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF" text-anchor="middle">Core Finding: The current rebuild does not address the business functions needed for growth.</text>
+  <text x="960" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF" text-anchor="middle">Infrastructure is progressing (75-80%) while revenue-enabling functions remain incomplete (0-35%).</text>
+
+  <!-- Four Findings - compact -->
+  <text x="100" y="490" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#14B8A6">Key Findings</text>
 
   <!-- Finding 1 -->
-  <rect x="100" y="350" width="840" height="140" fill="#1E293B" rx="12"/>
-  <circle cx="150" cy="420" r="30" fill="#14B8A6"/>
-  <text x="150" y="428" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
-  <text x="200" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">Progress concentrated in infrastructure</text>
-  <text x="200" y="435" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Frontend 80%, Backend 75% — but Financial Calculations 35%,</text>
-  <text x="200" y="465" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">CRM Integration 0%. (Source: Develutions status report, 27 Dec 2025)</text>
+  <rect x="100" y="515" width="420" height="130" fill="#1E293B" rx="12"/>
+  <circle cx="140" cy="580" r="24" fill="#14B8A6"/>
+  <text x="140" y="588" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="180" y="555" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">Infrastructure over business</text>
+  <text x="180" y="585" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">Frontend 80%, Backend 75%</text>
+  <text x="180" y="610" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#EF4444">Financials 35%, CRM 0%</text>
 
   <!-- Finding 2 -->
-  <rect x="980" y="350" width="840" height="140" fill="#1E293B" rx="12"/>
-  <circle cx="1030" cy="420" r="30" fill="#14B8A6"/>
-  <text x="1030" y="428" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
-  <text x="1080" y="400" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">Business-critical functions deprioritised</text>
-  <text x="1080" y="435" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Lead capture, deal facilitation, and fee collection are either</text>
-  <text x="1080" y="465" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">"future" features or explicitly out of scope.</text>
+  <rect x="540" y="515" width="420" height="130" fill="#1E293B" rx="12"/>
+  <circle cx="580" cy="580" r="24" fill="#14B8A6"/>
+  <text x="580" y="588" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="620" y="555" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">Revenue functions missing</text>
+  <text x="620" y="585" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">Lead capture, deal facilitation,</text>
+  <text x="620" y="610" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">fee collection — out of scope</text>
 
   <!-- Finding 3 -->
-  <rect x="100" y="510" width="840" height="140" fill="#1E293B" rx="12"/>
-  <circle cx="150" cy="580" r="30" fill="#F59E0B"/>
-  <text x="150" y="588" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
-  <text x="200" y="560" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">Full migration carries significant risk</text>
-  <text x="200" y="595" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Complete rebuild of business logic, testing, integrations.</text>
-  <text x="200" y="625" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Alternative approaches (Vue 2→3) not fully explored.</text>
+  <rect x="980" y="515" width="420" height="130" fill="#1E293B" rx="12"/>
+  <circle cx="1020" cy="580" r="24" fill="#F59E0B"/>
+  <text x="1020" y="588" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="1060" y="555" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">Migration risk</text>
+  <text x="1060" y="585" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">Full rebuild required; alternatives</text>
+  <text x="1060" y="610" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">not fully explored</text>
 
   <!-- Finding 4 -->
-  <rect x="980" y="510" width="840" height="140" fill="#1E293B" rx="12"/>
-  <circle cx="1030" cy="580" r="30" fill="#F59E0B"/>
-  <text x="1030" y="588" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
-  <text x="1080" y="560" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">Regulatory questions require attention</text>
-  <text x="1080" y="595" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">5% sourcing fee structure may require PPRA registration.</text>
-  <text x="1080" y="625" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Financial projections may trigger FAIS requirements.</text>
+  <rect x="1420" y="515" width="400" height="130" fill="#1E293B" rx="12"/>
+  <circle cx="1460" cy="580" r="24" fill="#F59E0B"/>
+  <text x="1460" y="588" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="1500" y="555" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">Regulatory attention needed</text>
+  <text x="1500" y="585" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">PPRA, FSCA requirements</text>
+  <text x="1500" y="610" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">to be verified</text>
 
-  <!-- Recommendation -->
-  <text x="100" y="720" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#14B8A6">Recommendation</text>
-  <rect x="100" y="745" width="1720" height="120" fill="#1E293B" rx="12"/>
-  <text x="140" y="795" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#FFFFFF">Before proceeding with any development path:</text>
-  <circle cx="160" cy="840" r="6" fill="#14B8A6"/>
-  <text x="180" y="847" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF">Verify Develutions' claimed progress (code access or demonstration)</text>
-  <circle cx="660" cy="840" r="6" fill="#14B8A6"/>
-  <text x="680" y="847" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF">Confirm regulatory compliance status</text>
-  <circle cx="1100" cy="840" r="6" fill="#14B8A6"/>
-  <text x="1120" y="847" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#9CA3AF">Define what technology must deliver for the business to scale</text>
+  <!-- Additional gaps identified -->
+  <text x="100" y="700" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#14B8A6">Additional Gaps Identified</text>
+
+  <rect x="100" y="725" width="540" height="80" fill="#1E293B" rx="12"/>
+  <circle cx="140" cy="765" r="6" fill="#EF4444"/>
+  <text x="160" y="755" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Sequencing Problem</text>
+  <text x="160" y="780" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">Infrastructure built before business logic defined</text>
+
+  <rect x="690" y="725" width="540" height="80" fill="#1E293B" rx="12"/>
+  <circle cx="730" cy="765" r="6" fill="#EF4444"/>
+  <text x="750" y="755" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Stakeholder Visibility Gap</text>
+  <text x="750" y="780" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">No documented demo/review process with Ezra</text>
+
+  <rect x="1280" y="725" width="540" height="80" fill="#1E293B" rx="12"/>
+  <circle cx="1320" cy="765" r="6" fill="#EF4444"/>
+  <text x="1340" y="755" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Mobile Strategy Missing</text>
+  <text x="1340" y="780" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">No mobile plan for 33-year-old median customer</text>
+
+  <!-- Bottom recommendation -->
+  <rect x="100" y="830" width="1720" height="140" fill="#14B8A6" fill-opacity="0.1" rx="12" stroke="#14B8A6" stroke-width="2"/>
+  <text x="150" y="875" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#14B8A6">Recommendation</text>
+  <text x="150" y="910" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Before further investment: (1) Verify Develutions' progress, (2) Confirm regulatory status, (3) Define growth targets,</text>
+  <text x="150" y="940" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">(4) Align technology roadmap to business scaling needs — not infrastructure modernisation.</text>
+
+  <!-- Source footnotes -->
+  <text x="100" y="1010" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#64748B">Sources: R600M — ezrarasethe.com/about | Business metrics — disruptafrica.com/2024/03/26/how-investrand-is-helping-young-south-africans-get-clever-with-property-investments/</text>
 
   <!-- Page number -->
   <text x="1870" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#475569" text-anchor="end">2</text>

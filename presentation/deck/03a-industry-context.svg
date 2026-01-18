@@ -1,0 +1,111 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+    <linearGradient id="tealGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#0D9488"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Title -->
+  <text x="100" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">Industry Context: SA Property Investment</text>
+  <rect x="100" y="110" width="500" height="4" fill="url(#accentGradient)" rx="2"/>
+  <text x="100" y="155" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#9CA3AF">The market InvestRand operates in — and where it's heading</text>
+
+  <!-- Market size stats row -->
+  <text x="100" y="210" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#14B8A6">South Africa Market Snapshot</text>
+
+  <!-- Stat card 1 - Commercial property -->
+  <rect x="100" y="240" width="400" height="160" fill="#1E293B" rx="16"/>
+  <text x="300" y="295" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="700" fill="#14B8A6" text-anchor="middle">R27B</text>
+  <text x="300" y="335" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">Commercial property deals (2024)</text>
+  <text x="300" y="365" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#22C55E" text-anchor="middle">↑ 34% from 2023</text>
+  <text x="300" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">Source: JLL SA Investment Review 2024</text>
+
+  <!-- Stat card 2 - PropTech market -->
+  <rect x="540" y="240" width="400" height="160" fill="#1E293B" rx="16"/>
+  <text x="740" y="295" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="700" fill="#14B8A6" text-anchor="middle">$10B+</text>
+  <text x="740" y="335" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">SA PropTech market size</text>
+  <text x="740" y="365" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF" text-anchor="middle">Real estate + digital property services</text>
+  <text x="740" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">Source: Ken Research, 2024</text>
+
+  <!-- Stat card 3 - Prime rate -->
+  <rect x="980" y="240" width="400" height="160" fill="#1E293B" rx="16"/>
+  <text x="1180" y="295" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="700" fill="#14B8A6" text-anchor="middle">10.75%</text>
+  <text x="1180" y="335" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">Prime lending rate (2025)</text>
+  <text x="1180" y="365" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#22C55E" text-anchor="middle">↓ 4 consecutive SARB cuts</text>
+  <text x="1180" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">Source: SARB, May 2025</text>
+
+  <!-- Stat card 4 - Global PropTech growth -->
+  <rect x="1420" y="240" width="400" height="160" fill="#1E293B" rx="16"/>
+  <text x="1620" y="295" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="700" fill="#14B8A6" text-anchor="middle">11.9%</text>
+  <text x="1620" y="335" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">Global PropTech CAGR</text>
+  <text x="1620" y="365" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF" text-anchor="middle">$36B (2024) → $88B (2032)</text>
+  <text x="1620" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#64748B" text-anchor="middle">Source: Fortune Business Insights</text>
+
+  <!-- Market dynamics section -->
+  <text x="100" y="470" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#14B8A6">What's Driving Growth</text>
+
+  <!-- Three columns -->
+  <rect x="100" y="500" width="540" height="220" fill="#1E293B" rx="16"/>
+  <rect x="100" y="500" width="540" height="50" fill="url(#tealGradient)" rx="16"/>
+  <rect x="100" y="540" width="540" height="10" fill="#1E293B"/>
+  <text x="370" y="535" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="middle">Demand Drivers</text>
+  <circle cx="140" cy="590" r="5" fill="#14B8A6"/>
+  <text x="160" y="595" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Rising property prices + affordability pressure</text>
+  <circle cx="140" cy="625" r="5" fill="#14B8A6"/>
+  <text x="160" y="630" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Growing appetite for accessible investment options</text>
+  <circle cx="140" cy="660" r="5" fill="#14B8A6"/>
+  <text x="160" y="665" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Young professionals seeking wealth-building tools</text>
+  <circle cx="140" cy="695" r="5" fill="#14B8A6"/>
+  <text x="160" y="700" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Interest rate cuts making property more accessible</text>
+
+  <rect x="690" y="500" width="540" height="220" fill="#1E293B" rx="16"/>
+  <rect x="690" y="500" width="540" height="50" fill="url(#tealGradient)" rx="16"/>
+  <rect x="690" y="540" width="540" height="10" fill="#1E293B"/>
+  <text x="960" y="535" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="middle">Competitive Landscape</text>
+  <circle cx="730" cy="590" r="5" fill="#14B8A6"/>
+  <text x="750" y="595" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">EasyProperties — fractional shares (R1 min)</text>
+  <circle cx="730" cy="625" r="5" fill="#14B8A6"/>
+  <text x="750" y="630" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Crowdprop — crowdfunding model</text>
+  <circle cx="730" cy="660" r="5" fill="#14B8A6"/>
+  <text x="750" y="665" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Traditional estate agents — high touch, high cost</text>
+  <circle cx="730" cy="695" r="5" fill="#14B8A6"/>
+  <text x="750" y="700" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">InvestRand — full ownership, curated deals</text>
+
+  <rect x="1280" y="500" width="540" height="220" fill="#1E293B" rx="16"/>
+  <rect x="1280" y="500" width="540" height="50" fill="url(#tealGradient)" rx="16"/>
+  <rect x="1280" y="540" width="540" height="10" fill="#1E293B"/>
+  <text x="1550" y="535" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="middle">InvestRand's Position</text>
+  <circle cx="1320" cy="590" r="5" fill="#14B8A6"/>
+  <text x="1340" y="595" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Unique: full ownership, not fractional</text>
+  <circle cx="1320" cy="625" r="5" fill="#14B8A6"/>
+  <text x="1340" y="630" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Higher ticket = deeper client relationship</text>
+  <circle cx="1320" cy="660" r="5" fill="#14B8A6"/>
+  <text x="1340" y="665" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">5% fee model = strong unit economics</text>
+  <circle cx="1320" cy="695" r="5" fill="#14B8A6"/>
+  <text x="1340" y="700" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">60% repeat clients = proven retention</text>
+
+  <!-- Key insight -->
+  <rect x="100" y="750" width="1720" height="100" fill="#14B8A6" fill-opacity="0.1" rx="12" stroke="#14B8A6" stroke-width="2"/>
+  <text x="150" y="795" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="#14B8A6">Market Opportunity</text>
+  <text x="150" y="830" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">SA property investment is growing. Interest rates are falling. Young professionals want accessible wealth-building tools.</text>
+  <text x="1650" y="830" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#14B8A6">InvestRand is well-positioned.</text>
+
+  <!-- Data sources footer -->
+  <text x="100" y="900" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#64748B">Sources: JLL South Africa Investment Review 2024/25; Ken Research SA PropTech Market Report; Fortune Business Insights Global PropTech 2024;</text>
+  <text x="100" y="920" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#64748B">SARB Monetary Policy May 2025; Disrupt Africa March 2024; JTB Consulting SA PropTech/FinTech Report 2025</text>
+
+  <!-- Page number -->
+  <text x="1870" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#475569" text-anchor="end">3a</text>
+</svg>

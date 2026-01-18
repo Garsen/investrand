@@ -1,0 +1,114 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+    <linearGradient id="tealGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#0D9488"/>
+    </linearGradient>
+    <linearGradient id="redGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#EF4444"/>
+      <stop offset="100%" style="stop-color:#DC2626"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Title -->
+  <text x="100" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">The Sequencing Problem</text>
+  <rect x="100" y="110" width="340" height="4" fill="url(#accentGradient)" rx="2"/>
+  <text x="100" y="155" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#9CA3AF">A fundamental question about Develutions' progress numbers</text>
+
+  <!-- The question -->
+  <rect x="100" y="190" width="1720" height="100" fill="#F59E0B" fill-opacity="0.1" rx="12" stroke="#F59E0B" stroke-width="2"/>
+  <text x="960" y="250" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#F59E0B" text-anchor="middle">How can the frontend (80%) and backend (75%) be nearly complete</text>
+  <text x="960" y="285" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#F59E0B" text-anchor="middle">when business logic (35%) is barely started?</text>
+
+  <!-- Two columns comparison -->
+  <text x="100" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#14B8A6">Well-Architected Sequence</text>
+  <text x="1020" y="360" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#EF4444">Develutions' Apparent Sequence</text>
+
+  <!-- Left column - correct sequence -->
+  <rect x="100" y="390" width="820" height="380" fill="#1E293B" rx="12"/>
+
+  <!-- Step 1 -->
+  <circle cx="180" cy="450" r="30" fill="url(#tealGradient)"/>
+  <text x="180" y="458" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="230" y="445" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">Business Requirements</text>
+  <text x="230" y="470" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Define what the system must do</text>
+  <line x1="180" y1="480" x2="180" y2="510" stroke="#14B8A6" stroke-width="3"/>
+  <polygon points="170,510 190,510 180,525" fill="#14B8A6"/>
+
+  <!-- Step 2 -->
+  <circle cx="180" cy="560" r="30" fill="url(#tealGradient)"/>
+  <text x="180" y="568" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="230" y="555" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">Business Logic</text>
+  <text x="230" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Implement core rules (calculations, workflows)</text>
+  <line x1="180" y1="590" x2="180" y2="620" stroke="#14B8A6" stroke-width="3"/>
+  <polygon points="170,620 190,620 180,635" fill="#14B8A6"/>
+
+  <!-- Step 3 -->
+  <circle cx="180" cy="670" r="30" fill="url(#tealGradient)"/>
+  <text x="180" y="678" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="230" y="665" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">Backend Services</text>
+  <text x="230" y="690" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Expose business logic through APIs</text>
+  <line x1="180" y1="700" x2="180" y2="730" stroke="#14B8A6" stroke-width="3"/>
+  <polygon points="170,730 190,730 180,745" fill="#14B8A6"/>
+
+  <!-- Step 4 -->
+  <circle cx="180" cy="780" r="30" fill="url(#tealGradient)"/>
+  <text x="180" y="788" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="230" y="775" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">Frontend</text>
+  <text x="230" y="800" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Present business logic to users</text>
+
+  <!-- Right column - inverted sequence -->
+  <rect x="1000" y="390" width="820" height="380" fill="#1E293B" rx="12"/>
+
+  <!-- Step 1 inverted -->
+  <circle cx="1080" cy="450" r="30" fill="url(#redGradient)"/>
+  <text x="1080" y="458" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="1130" y="445" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">Frontend Built</text>
+  <text x="1130" y="470" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">80% — before business logic</text>
+  <line x1="1080" y1="480" x2="1080" y2="510" stroke="#EF4444" stroke-width="3"/>
+  <polygon points="1070,510 1090,510 1080,525" fill="#EF4444"/>
+
+  <!-- Step 2 inverted -->
+  <circle cx="1080" cy="560" r="30" fill="url(#redGradient)"/>
+  <text x="1080" y="568" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="1130" y="555" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">Backend Infrastructure Built</text>
+  <text x="1130" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">75% — before business logic</text>
+  <line x1="1080" y1="590" x2="1080" y2="620" stroke="#EF4444" stroke-width="3"/>
+  <polygon points="1070,620 1090,620 1080,635" fill="#EF4444"/>
+
+  <!-- Step 3 inverted -->
+  <circle cx="1080" cy="670" r="30" fill="#F59E0B"/>
+  <text x="1080" y="678" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="1130" y="665" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">Business Logic Scaffolded</text>
+  <text x="1130" y="690" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#F59E0B">35% — partially started</text>
+  <line x1="1080" y1="700" x2="1080" y2="730" stroke="#64748B" stroke-width="3" stroke-dasharray="5,5"/>
+  <polygon points="1070,730 1090,730 1080,745" fill="#64748B"/>
+
+  <!-- Step 4 inverted -->
+  <circle cx="1080" cy="780" r="30" fill="#64748B"/>
+  <text x="1080" y="788" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="1130" y="775" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF">Business Requirements</text>
+  <text x="1130" y="800" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#64748B">Still being clarified</text>
+
+  <!-- Risk box -->
+  <rect x="100" y="800" width="1720" height="160" fill="#EF4444" fill-opacity="0.1" rx="12" stroke="#EF4444" stroke-width="2"/>
+  <text x="150" y="845" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#EF4444">Risk: When business logic is developed last</text>
+  <circle cx="160" cy="890" r="6" fill="#EF4444"/>
+  <text x="180" y="898" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Rework of "completed" frontend and backend components when business requirements reveal infrastructure assumptions were wrong</text>
+  <circle cx="160" cy="925" r="6" fill="#EF4444"/>
+  <text x="180" y="933" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">The 80% and 75% figures may not represent actual progress toward a working system</text>
+
+  <!-- Page number -->
+  <text x="1870" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#475569" text-anchor="end">5a</text>
+</svg>

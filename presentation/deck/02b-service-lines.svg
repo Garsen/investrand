@@ -1,0 +1,148 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+    <linearGradient id="tealGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#0D9488"/>
+    </linearGradient>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6"/>
+      <stop offset="100%" style="stop-color:#2563EB"/>
+    </linearGradient>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#22C55E"/>
+      <stop offset="100%" style="stop-color:#16A34A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Slide Title -->
+  <text x="100" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">Three Service Lines, One Brand</text>
+  <rect x="100" y="100" width="460" height="4" fill="url(#accentGradient)" rx="2"/>
+  <text x="100" y="145" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">Different challenges require different expertise. Same standards of trust and delivery.</text>
+
+  <!-- Parent brand box -->
+  <rect x="660" y="170" width="600" height="70" fill="#1E293B" rx="12" stroke="#14B8A6" stroke-width="2"/>
+  <text x="960" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">AMPERSAND INSIGHTS</text>
+  <text x="960" y="225" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF" text-anchor="middle">Technology Partnerships</text>
+
+  <!-- Connection lines -->
+  <line x1="760" y1="240" x2="360" y2="290" stroke="#14B8A6" stroke-width="2" opacity="0.4"/>
+  <line x1="960" y1="240" x2="960" y2="290" stroke="#3B82F6" stroke-width="2" opacity="0.4"/>
+  <line x1="1160" y1="240" x2="1560" y2="290" stroke="#22C55E" stroke-width="2" opacity="0.4"/>
+
+  <!-- Service Line 1: Technology Partnerships -->
+  <rect x="100" y="290" width="540" height="690" fill="#1E293B" rx="16"/>
+  <rect x="100" y="290" width="540" height="60" fill="url(#tealGradient)" rx="16"/>
+  <rect x="100" y="340" width="540" height="10" fill="#1E293B"/>
+  <text x="370" y="330" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">Technology Partnerships</text>
+
+  <text x="130" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#14B8A6">TAGLINE</text>
+  <text x="130" y="415" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-style="italic" fill="#FFFFFF">"Built on trust. Proven through delivery."</text>
+
+  <text x="130" y="460" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#14B8A6">TARGET BUYER</text>
+  <text x="130" y="485" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">CTOs, Innovation Leads, Venture Builders</text>
+
+  <text x="130" y="530" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#14B8A6">WHAT WE DO</text>
+  <circle cx="145" cy="560" r="4" fill="#14B8A6"/>
+  <text x="160" y="565" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#FFFFFF">Build digital products (mobile, web, APIs)</text>
+  <circle cx="145" cy="590" r="4" fill="#14B8A6"/>
+  <text x="160" y="595" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#FFFFFF">Embed senior engineering teams</text>
+  <circle cx="145" cy="620" r="4" fill="#14B8A6"/>
+  <text x="160" y="625" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#FFFFFF">New product development</text>
+  <circle cx="145" cy="650" r="4" fill="#14B8A6"/>
+  <text x="160" y="655" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#FFFFFF">Data platforms and analytics</text>
+
+  <text x="130" y="700" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#14B8A6">TECHNOLOGIES</text>
+  <text x="130" y="725" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">React Native, Flutter, React, Node.js,</text>
+  <text x="130" y="745" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">Python, Go, AWS, GCP, Azure</text>
+
+  <rect x="130" y="780" width="480" height="50" fill="#14B8A6" fill-opacity="0.1" rx="8"/>
+  <text x="370" y="812" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#14B8A6" text-anchor="middle">MARKET: Germany (Venture Builders)</text>
+
+  <rect x="130" y="850" width="480" height="100" fill="#0F172A" rx="8"/>
+  <text x="370" y="885" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#14B8A6" text-anchor="middle">TRACK RECORD</text>
+  <text x="370" y="910" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">100M+ users | 190+ markets</text>
+  <text x="370" y="935" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#9CA3AF" text-anchor="middle">Fintech, payments, marketplace platforms</text>
+
+  <!-- Service Line 2: Strategic Advisory -->
+  <rect x="690" y="290" width="540" height="690" fill="#1E293B" rx="16"/>
+  <rect x="690" y="290" width="540" height="60" fill="url(#blueGradient)" rx="16"/>
+  <rect x="690" y="340" width="540" height="10" fill="#1E293B"/>
+  <text x="960" y="330" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">Strategic Advisory</text>
+
+  <text x="720" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#3B82F6">TAGLINE</text>
+  <text x="720" y="415" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-style="italic" fill="#FFFFFF">"Independent insight for high-stakes decisions."</text>
+
+  <text x="720" y="460" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#3B82F6">TARGET BUYER</text>
+  <text x="720" y="485" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">VCs, PE Firms, Boards, Founders</text>
+
+  <text x="720" y="530" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#3B82F6">WHAT WE DO</text>
+  <circle cx="735" cy="560" r="4" fill="#3B82F6"/>
+  <text x="750" y="565" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#FFFFFF">Technical due diligence (M&amp;A, investment)</text>
+  <circle cx="735" cy="590" r="4" fill="#3B82F6"/>
+  <text x="750" y="595" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#FFFFFF">Architecture reviews and roadmaps</text>
+  <circle cx="735" cy="620" r="4" fill="#3B82F6"/>
+  <text x="750" y="625" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#FFFFFF">Fractional CTO leadership</text>
+  <circle cx="735" cy="650" r="4" fill="#3B82F6"/>
+  <text x="750" y="655" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#FFFFFF">SaaS founder advisory (pricing, GTM)</text>
+  <circle cx="735" cy="680" r="4" fill="#3B82F6"/>
+  <text x="750" y="685" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#FFFFFF">Transformation advisory</text>
+
+  <text x="720" y="730" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#3B82F6">ENGAGEMENT</text>
+  <text x="720" y="755" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">2-4 week assessments, ongoing advisory,</text>
+  <text x="720" y="775" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">1-2 days/week fractional engagements</text>
+
+  <rect x="720" y="800" width="480" height="50" fill="#3B82F6" fill-opacity="0.1" rx="8"/>
+  <text x="960" y="832" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#3B82F6" text-anchor="middle">MARKET: SA &amp; Germany (Investors, Founders)</text>
+
+  <rect x="720" y="870" width="480" height="80" fill="#0F172A" rx="8"/>
+  <text x="960" y="905" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#3B82F6" text-anchor="middle">DIFFERENTIATOR</text>
+  <text x="960" y="935" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle">We build production systems. Our advice is grounded in delivery.</text>
+
+  <!-- Service Line 3: Infrastructure Services -->
+  <rect x="1280" y="290" width="540" height="690" fill="#1E293B" rx="16"/>
+  <rect x="1280" y="290" width="540" height="60" fill="url(#greenGradient)" rx="16"/>
+  <rect x="1280" y="340" width="540" height="10" fill="#1E293B"/>
+  <text x="1550" y="330" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">Infrastructure Services</text>
+
+  <text x="1310" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#22C55E">TAGLINE</text>
+  <text x="1310" y="415" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-style="italic" fill="#FFFFFF">"On-prem. Hybrid. Cloud."</text>
+
+  <text x="1310" y="460" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#22C55E">TARGET BUYER</text>
+  <text x="1310" y="485" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Infrastructure Directors, VP IT Ops, CISOs</text>
+
+  <text x="1310" y="530" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#22C55E">WHAT WE DO</text>
+  <circle cx="1325" cy="560" r="4" fill="#22C55E"/>
+  <text x="1340" y="565" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#FFFFFF">VMware consulting and migrations</text>
+  <circle cx="1325" cy="590" r="4" fill="#22C55E"/>
+  <text x="1340" y="595" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#FFFFFF">Rubrik/Veeam data protection</text>
+  <circle cx="1325" cy="620" r="4" fill="#22C55E"/>
+  <text x="1340" y="625" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#FFFFFF">AWS/Azure cloud architecture</text>
+  <circle cx="1325" cy="650" r="4" fill="#22C55E"/>
+  <text x="1340" y="655" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#FFFFFF">Hybrid cloud and migrations</text>
+
+  <text x="1310" y="700" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#22C55E">CERTIFICATIONS</text>
+  <text x="1310" y="725" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">VCP-DCV, VCP-NV (NSX-T), vSAN Specialist,</text>
+  <text x="1310" y="745" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">RCSA, RCCS, VMCE, VMCA</text>
+
+  <rect x="1310" y="780" width="480" height="50" fill="#22C55E" fill-opacity="0.1" rx="8"/>
+  <text x="1550" y="812" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#22C55E" text-anchor="middle">MARKET: Germany (Hosting, Manufacturing)</text>
+
+  <rect x="1310" y="850" width="480" height="100" fill="#0F172A" rx="8"/>
+  <text x="1550" y="885" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#22C55E" text-anchor="middle">FOCUS AREAS</text>
+  <text x="1550" y="915" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle">Cost optimisation | Compliance (DORA, GDPR)</text>
+  <text x="1550" y="940" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#FFFFFF" text-anchor="middle">Ransomware recovery | Migration services</text>
+
+  <!-- Slide number -->
+  <text x="1870" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#475569" text-anchor="end">4</text>
+</svg>

@@ -1,0 +1,156 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+    <linearGradient id="tealGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#0D9488"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Title -->
+  <text x="100" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">Unit Economics: What the Numbers Actually Mean</text>
+  <rect x="100" y="110" width="580" height="4" fill="url(#accentGradient)" rx="2"/>
+  <text x="100" y="155" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#9CA3AF">Reconciling reported metrics to understand InvestRand's true economics</text>
+
+  <!-- The puzzle section -->
+  <text x="100" y="210" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#14B8A6">Understanding InvestRand's Revenue Model</text>
+
+  <!-- Three reported numbers -->
+  <rect x="100" y="240" width="360" height="120" fill="#1E293B" rx="12"/>
+  <text x="280" y="285" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="#14B8A6" text-anchor="middle">R600M</text>
+  <text x="280" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle">Investment opportunities facilitated</text>
+  <text x="280" y="350" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#64748B" text-anchor="middle">Source: ezrarasethe.com</text>
+
+  <text x="500" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#64748B">×</text>
+
+  <rect x="540" y="240" width="360" height="120" fill="#1E293B" rx="12"/>
+  <text x="720" y="285" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="#14B8A6" text-anchor="middle">5%</text>
+  <text x="720" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle">Fee per transaction</text>
+  <text x="720" y="350" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#64748B" text-anchor="middle">Source: Disrupt Africa</text>
+
+  <text x="940" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#64748B">=</text>
+
+  <rect x="980" y="240" width="360" height="120" fill="#14B8A6" fill-opacity="0.15" rx="12" stroke="#14B8A6" stroke-width="2"/>
+  <text x="1160" y="285" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="#14B8A6" text-anchor="middle">~R3M</text>
+  <text x="1160" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#14B8A6" text-anchor="middle">Actual revenue</text>
+  <text x="1160" y="350" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF" text-anchor="middle">Years 1-2 combined</text>
+
+  <!-- Arrow to insight -->
+  <text x="1400" y="300" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#14B8A6">→</text>
+
+  <rect x="1450" y="240" width="370" height="120" fill="#14B8A6" fill-opacity="0.15" rx="12" stroke="#14B8A6" stroke-width="2"/>
+  <text x="1635" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#14B8A6" text-anchor="middle">KEY METRIC</text>
+  <text x="1635" y="315" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">~10% of opportunities</text>
+  <text x="1635" y="350" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">convert to closed deals</text>
+
+  <!-- The math breakdown -->
+  <text x="100" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#14B8A6">Reverse Engineering the Economics</text>
+
+  <rect x="100" y="450" width="1720" height="140" fill="#1E293B" rx="12"/>
+
+  <!-- Step 1 -->
+  <text x="150" y="490" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Reported revenue (Y1+Y2)</text>
+  <text x="150" y="520" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">~R3M</text>
+
+  <text x="370" y="510" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#64748B">÷</text>
+
+  <!-- Step 2 -->
+  <text x="420" y="490" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Fee rate</text>
+  <text x="420" y="520" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">5%</text>
+
+  <text x="530" y="510" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#64748B">=</text>
+
+  <!-- Step 3 -->
+  <text x="580" y="490" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Actual transacted value</text>
+  <text x="580" y="520" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#14B8A6">R60M</text>
+
+  <text x="750" y="510" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#64748B">÷</text>
+
+  <!-- Step 4 -->
+  <text x="800" y="490" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Facilitated value</text>
+  <text x="800" y="520" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">R600M</text>
+
+  <text x="970" y="510" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#64748B">=</text>
+
+  <!-- Result -->
+  <rect x="1020" y="470" width="200" height="80" fill="#14B8A6" fill-opacity="0.2" rx="8"/>
+  <text x="1120" y="505" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#14B8A6" text-anchor="middle">Conversion rate</text>
+  <text x="1120" y="540" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="#14B8A6" text-anchor="middle">~10%</text>
+
+  <!-- Implication -->
+  <text x="1280" y="490" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">This means:</text>
+  <text x="1280" y="520" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">For every R10 in opportunities shown,</text>
+  <text x="1280" y="545" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">R1 converts to a fee-generating deal</text>
+  <text x="1280" y="575" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#64748B">(Reasonable for a sourcing marketplace)</text>
+
+  <!-- Growth projections -->
+  <text x="100" y="650" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="600" fill="#14B8A6">What R1B Facilitated Actually Means</text>
+
+  <!-- Projection table -->
+  <rect x="100" y="680" width="1200" height="50" fill="url(#tealGradient)" rx="8"/>
+  <text x="200" y="712" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF" text-anchor="middle">Scenario</text>
+  <text x="400" y="712" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF" text-anchor="middle">Facilitated</text>
+  <text x="580" y="712" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF" text-anchor="middle">Conversion</text>
+  <text x="760" y="712" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF" text-anchor="middle">Transacted</text>
+  <text x="940" y="712" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF" text-anchor="middle">Revenue (5%)</text>
+  <text x="1150" y="712" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#FFFFFF" text-anchor="middle">vs Current</text>
+
+  <!-- Current row -->
+  <rect x="100" y="730" width="1200" height="45" fill="#1E293B"/>
+  <text x="200" y="760" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle">Current (Y2)</text>
+  <text x="400" y="760" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">R600M</text>
+  <text x="580" y="760" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">10%</text>
+  <text x="760" y="760" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">R60M</text>
+  <text x="940" y="760" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF" text-anchor="middle">~R3M</text>
+  <text x="1150" y="760" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle">baseline</text>
+
+  <!-- Conservative row -->
+  <rect x="100" y="775" width="1200" height="45" fill="#0F172A" fill-opacity="0.5"/>
+  <text x="200" y="805" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">Conservative</text>
+  <text x="400" y="805" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">R1B</text>
+  <text x="580" y="805" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">10%</text>
+  <text x="760" y="805" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">R100M</text>
+  <text x="940" y="805" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#14B8A6" text-anchor="middle">R5M</text>
+  <text x="1150" y="805" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#14B8A6" text-anchor="middle">+67%</text>
+
+  <!-- Growth row -->
+  <rect x="100" y="820" width="1200" height="45" fill="#1E293B"/>
+  <text x="200" y="850" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">With better conversion</text>
+  <text x="400" y="850" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">R1B</text>
+  <text x="580" y="850" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">15%</text>
+  <text x="760" y="850" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">R150M</text>
+  <text x="940" y="850" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#14B8A6" text-anchor="middle">R7.5M</text>
+  <text x="1150" y="850" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#14B8A6" text-anchor="middle">+150%</text>
+
+  <!-- Strong row -->
+  <rect x="100" y="865" width="1200" height="45" fill="#0F172A" fill-opacity="0.5" rx="0 0 8 8"/>
+  <text x="200" y="895" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">Strong execution</text>
+  <text x="400" y="895" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">R1B</text>
+  <text x="580" y="895" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">20%</text>
+  <text x="760" y="895" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle">R200M</text>
+  <text x="940" y="895" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#14B8A6" text-anchor="middle">R10M</text>
+  <text x="1150" y="895" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#14B8A6" text-anchor="middle">+233%</text>
+
+  <!-- Key insight -->
+  <rect x="100" y="920" width="1720" height="60" fill="#F59E0B" fill-opacity="0.1" rx="12" stroke="#F59E0B" stroke-width="2"/>
+  <text x="150" y="955" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#F59E0B">Key Question for Ezra:</text>
+  <text x="450" y="955" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">What levers improve conversion? Better platform UX? Faster deal flow? Mobile access? This is where technology investment pays off.</text>
+
+  <!-- Source footnotes -->
+  <text x="100" y="1010" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#64748B">Sources:</text>
+  <text x="100" y="1025" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#64748B">R600M facilitated: ezrarasethe.com/about</text>
+  <text x="100" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#64748B">Revenue, fee structure, user metrics: disruptafrica.com/2024/03/26/how-investrand-is-helping-young-south-africans-get-clever-with-property-investments/</text>
+
+  <!-- Page number -->
+  <text x="1870" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#475569" text-anchor="end">3b</text>
+</svg>

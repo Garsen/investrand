@@ -1,0 +1,120 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+    <linearGradient id="tealGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#0D9488"/>
+    </linearGradient>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6"/>
+      <stop offset="100%" style="stop-color:#2563EB"/>
+    </linearGradient>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#22C55E"/>
+      <stop offset="100%" style="stop-color:#16A34A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Title -->
+  <text x="100" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">What Success Looks Like</text>
+  <rect x="100" y="110" width="400" height="4" fill="url(#accentGradient)" rx="2"/>
+  <text x="100" y="155" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#9CA3AF">Measurable outcomes across three time horizons</text>
+
+  <!-- Three timeline cards -->
+
+  <!-- Short-term (90 days) -->
+  <rect x="100" y="200" width="540" height="550" fill="#1E293B" rx="16"/>
+  <rect x="100" y="200" width="540" height="70" fill="url(#tealGradient)" rx="16"/>
+  <rect x="100" y="260" width="540" height="10" fill="#1E293B"/>
+  <text x="370" y="245" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">Short-Term (90 Days)</text>
+
+  <text x="150" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#14B8A6">Platform Foundation</text>
+  <circle cx="160" cy="360" r="6" fill="#14B8A6"/>
+  <text x="185" y="368" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Financial calculations verified and working</text>
+  <circle cx="160" cy="400" r="6" fill="#14B8A6"/>
+  <text x="185" y="408" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">CRM integration restored</text>
+  <circle cx="160" cy="440" r="6" fill="#14B8A6"/>
+  <text x="185" y="448" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Bi-weekly demos established</text>
+
+  <text x="150" y="500" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#14B8A6">Business Clarity</text>
+  <circle cx="160" cy="540" r="6" fill="#14B8A6"/>
+  <text x="185" y="548" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Regulatory status confirmed</text>
+  <circle cx="160" cy="580" r="6" fill="#14B8A6"/>
+  <text x="185" y="588" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">IP ownership documented</text>
+  <circle cx="160" cy="620" r="6" fill="#14B8A6"/>
+  <text x="185" y="628" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Investor journey mapped end-to-end</text>
+
+  <text x="150" y="680" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#14B8A6">Visibility</text>
+  <circle cx="160" cy="720" r="6" fill="#14B8A6"/>
+  <text x="185" y="728" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Ezra sees working software every 2 weeks</text>
+
+  <!-- Medium-term (6 months) -->
+  <rect x="690" y="200" width="540" height="550" fill="#1E293B" rx="16"/>
+  <rect x="690" y="200" width="540" height="70" fill="url(#blueGradient)" rx="16"/>
+  <rect x="690" y="260" width="540" height="10" fill="#1E293B"/>
+  <text x="960" y="245" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">Medium-Term (6 Months)</text>
+
+  <text x="740" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#3B82F6">Platform Growth</text>
+  <circle cx="750" cy="360" r="6" fill="#3B82F6"/>
+  <text x="775" y="368" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Mobile-ready (PWA or native)</text>
+  <circle cx="750" cy="400" r="6" fill="#3B82F6"/>
+  <text x="775" y="408" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Lead capture and conversion working</text>
+  <circle cx="750" cy="440" r="6" fill="#3B82F6"/>
+  <text x="775" y="448" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Integrated deal pipeline management</text>
+
+  <text x="740" y="500" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#3B82F6">Business Metrics</text>
+  <circle cx="750" cy="540" r="6" fill="#3B82F6"/>
+  <text x="775" y="548" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Fee collection tracked in platform</text>
+  <circle cx="750" cy="580" r="6" fill="#3B82F6"/>
+  <text x="775" y="588" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">User growth measurable</text>
+  <circle cx="750" cy="620" r="6" fill="#3B82F6"/>
+  <text x="775" y="628" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Conversion rates visible</text>
+
+  <text x="740" y="680" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#3B82F6">Quality</text>
+  <circle cx="750" cy="720" r="6" fill="#3B82F6"/>
+  <text x="775" y="728" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Test coverage >80% for critical paths</text>
+
+  <!-- Long-term (12+ months) -->
+  <rect x="1280" y="200" width="540" height="550" fill="#1E293B" rx="16"/>
+  <rect x="1280" y="200" width="540" height="70" fill="url(#greenGradient)" rx="16"/>
+  <rect x="1280" y="260" width="540" height="10" fill="#1E293B"/>
+  <text x="1550" y="245" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" text-anchor="middle">Long-Term (12+ Months)</text>
+
+  <text x="1330" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#22C55E">Scale</text>
+  <circle cx="1340" cy="360" r="6" fill="#22C55E"/>
+  <text x="1365" y="368" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Platform handles R1B+ in transactions</text>
+  <circle cx="1340" cy="400" r="6" fill="#22C55E"/>
+  <text x="1365" y="408" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">10,000+ active users</text>
+  <circle cx="1340" cy="440" r="6" fill="#22C55E"/>
+  <text x="1365" y="448" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Technology enables growth, not constraints</text>
+
+  <text x="1330" y="500" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#22C55E">Compliance</text>
+  <circle cx="1340" cy="540" r="6" fill="#22C55E"/>
+  <text x="1365" y="548" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Fully regulatory compliant</text>
+  <circle cx="1340" cy="580" r="6" fill="#22C55E"/>
+  <text x="1365" y="588" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Ready for institutional partnerships</text>
+
+  <text x="1330" y="640" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#22C55E">Ezra's Peace of Mind</text>
+  <circle cx="1340" cy="680" r="6" fill="#22C55E"/>
+  <text x="1365" y="688" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Owns the complete ecosystem</text>
+  <circle cx="1340" cy="720" r="6" fill="#22C55E"/>
+  <text x="1365" y="728" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Trusted partner relationship</text>
+
+  <!-- Bottom tagline -->
+  <rect x="100" y="790" width="1720" height="150" fill="url(#accentGradient)" fill-opacity="0.15" rx="16" stroke="#14B8A6" stroke-width="2"/>
+  <text x="960" y="860" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="#FFFFFF" text-anchor="middle">From R600M facilitated to R1B+ — with technology that enables growth</text>
+  <text x="960" y="910" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#9CA3AF" text-anchor="middle">Built on trust. Proven through delivery.</text>
+
+  <!-- Page number -->
+  <text x="1870" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#475569" text-anchor="end">10</text>
+</svg>

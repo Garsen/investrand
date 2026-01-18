@@ -1,0 +1,90 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Decorative ampersand -->
+  <text x="1750" y="300" font-family="Georgia, serif" font-size="400" font-weight="bold" fill="#14B8A6" text-anchor="middle" opacity="0.05">&amp;</text>
+
+  <!-- Slide Title -->
+  <text x="100" y="100" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">Why We Exist</text>
+  <rect x="100" y="120" width="200" height="4" fill="url(#accentGradient)" rx="2"/>
+
+  <!-- Opening narrative -->
+  <text x="100" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="26" fill="#FFFFFF">We started this company because we'd seen too many technology relationships go wrong.</text>
+
+  <!-- Problem column -->
+  <text x="100" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#EF4444">WHAT WE SAW</text>
+
+  <rect x="100" y="310" width="820" height="70" fill="#EF4444" fill-opacity="0.1" rx="12" stroke="#EF4444" stroke-width="1"/>
+  <circle cx="140" cy="345" r="6" fill="#EF4444"/>
+  <text x="165" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Deteriorating trust in technology relationships</text>
+  <text x="165" y="362" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">Promises made, not kept. Expectations mismatched.</text>
+
+  <rect x="100" y="395" width="820" height="70" fill="#EF4444" fill-opacity="0.1" rx="12" stroke="#EF4444" stroke-width="1"/>
+  <circle cx="140" cy="430" r="6" fill="#EF4444"/>
+  <text x="165" y="425" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Overpromise, underdeliver</text>
+  <text x="165" y="447" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">Junior developers learning on client projects. Timelines that slipped without warning.</text>
+
+  <rect x="100" y="480" width="820" height="70" fill="#EF4444" fill-opacity="0.1" rx="12" stroke="#EF4444" stroke-width="1"/>
+  <circle cx="140" cy="515" r="6" fill="#EF4444"/>
+  <text x="165" y="510" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Impersonal, transactional relationships</text>
+  <text x="165" y="532" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">Vendors who disappeared the moment the contract was signed.</text>
+
+  <!-- Response column -->
+  <text x="1000" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#22C55E">WHAT WE DO DIFFERENTLY</text>
+
+  <rect x="1000" y="310" width="820" height="70" fill="#22C55E" fill-opacity="0.1" rx="12" stroke="#22C55E" stroke-width="1"/>
+  <circle cx="1040" cy="345" r="6" fill="#22C55E"/>
+  <text x="1065" y="340" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Relationships built on trust and transparency</text>
+  <text x="1065" y="362" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">Honest communication, even when the news is hard.</text>
+
+  <rect x="1000" y="395" width="820" height="70" fill="#22C55E" fill-opacity="0.1" rx="12" stroke="#22C55E" stroke-width="1"/>
+  <circle cx="1040" cy="430" r="6" fill="#22C55E"/>
+  <text x="1065" y="425" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Deliver beyond expectations</text>
+  <text x="1065" y="447" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">Senior professionals on every engagement. No exceptions.</text>
+
+  <rect x="1000" y="480" width="820" height="70" fill="#22C55E" fill-opacity="0.1" rx="12" stroke="#22C55E" stroke-width="1"/>
+  <circle cx="1040" cy="515" r="6" fill="#22C55E"/>
+  <text x="1065" y="510" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF">Partnership, not transaction</text>
+  <text x="1065" y="532" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF">We care about your outcome, not just our invoice.</text>
+
+  <!-- Belief statement -->
+  <rect x="100" y="600" width="1720" height="120" fill="#1E293B" rx="16" stroke="#14B8A6" stroke-width="2"/>
+  <text x="960" y="650" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#14B8A6" font-weight="600" text-anchor="middle">OUR BELIEF</text>
+  <text x="960" y="690" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle" font-style="italic">"Technology delivery doesn't have to feel transactional. Commercial relationships can still be human."</text>
+
+  <!-- What clients say -->
+  <text x="100" y="790" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF">What our clients tell us:</text>
+
+  <rect x="100" y="820" width="540" height="80" fill="#14B8A6" fill-opacity="0.1" rx="12"/>
+  <text x="370" y="855" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">"You make our lives easier."</text>
+  <text x="370" y="880" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF" text-anchor="middle">Peace of mind through delivery</text>
+
+  <rect x="690" y="820" width="540" height="80" fill="#14B8A6" fill-opacity="0.1" rx="12"/>
+  <text x="960" y="855" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">"We enjoy working with you."</text>
+  <text x="960" y="880" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF" text-anchor="middle">Relationships, not transactions</text>
+
+  <rect x="1280" y="820" width="540" height="80" fill="#14B8A6" fill-opacity="0.1" rx="12"/>
+  <text x="1550" y="855" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">"You deliver what you promise."</text>
+  <text x="1550" y="880" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF" text-anchor="middle">Trust through consistency</text>
+
+  <!-- Footer -->
+  <rect x="100" y="940" width="400" height="45" fill="#14B8A6" fill-opacity="0.1" rx="8"/>
+  <text x="300" y="970" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#14B8A6" text-anchor="middle">Built on trust. Proven through delivery.</text>
+
+  <text x="600" y="970" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#64748B">Johannesburg + Cape Town | South Africa</text>
+
+  <!-- Slide number -->
+  <text x="1870" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#475569" text-anchor="end">2</text>
+</svg>

@@ -1,0 +1,118 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+    <linearGradient id="tealGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#0D9488"/>
+    </linearGradient>
+    <linearGradient id="redGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#EF4444"/>
+      <stop offset="100%" style="stop-color:#DC2626"/>
+    </linearGradient>
+    <linearGradient id="amberGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B"/>
+      <stop offset="100%" style="stop-color:#D97706"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Title -->
+  <text x="100" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">Understanding "Progress" — A Simple Analogy</text>
+  <rect x="100" y="110" width="480" height="4" fill="url(#accentGradient)" rx="2"/>
+  <text x="100" y="155" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#9CA3AF">What Develutions' numbers mean in practical terms</text>
+
+  <!-- Building analogy - 4 cards -->
+
+  <!-- Card 1: Foundation -->
+  <rect x="100" y="190" width="400" height="350" fill="#1E293B" rx="16"/>
+  <rect x="100" y="190" width="400" height="60" fill="url(#tealGradient)" rx="16"/>
+  <rect x="100" y="240" width="400" height="10" fill="#1E293B"/>
+  <text x="300" y="230" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="middle">Foundation &amp; Plumbing</text>
+  <!-- Building icon -->
+  <rect x="255" y="280" width="90" height="70" fill="#14B8A6" fill-opacity="0.2" rx="4"/>
+  <rect x="265" y="290" width="20" height="50" fill="#14B8A6"/>
+  <rect x="295" y="300" width="20" height="40" fill="#14B8A6"/>
+  <rect x="315" y="310" width="20" height="30" fill="#14B8A6"/>
+  <text x="300" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">Backend systems,</text>
+  <text x="300" y="415" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">databases, authentication</text>
+  <text x="300" y="470" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="700" fill="#14B8A6" text-anchor="middle">75-80%</text>
+  <text x="300" y="510" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle">✓ Working</text>
+
+  <!-- Card 2: Storefront -->
+  <rect x="540" y="190" width="400" height="350" fill="#1E293B" rx="16"/>
+  <rect x="540" y="190" width="400" height="60" fill="url(#tealGradient)" rx="16"/>
+  <rect x="540" y="240" width="400" height="10" fill="#1E293B"/>
+  <text x="740" y="230" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="middle">Storefront &amp; Signage</text>
+  <!-- Storefront icon -->
+  <rect x="690" y="280" width="100" height="70" fill="#14B8A6" fill-opacity="0.2" rx="4"/>
+  <rect x="700" y="290" width="80" height="50" fill="none" stroke="#14B8A6" stroke-width="3" rx="4"/>
+  <line x1="740" y1="290" x2="740" y2="340" stroke="#14B8A6" stroke-width="2"/>
+  <text x="740" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">Frontend interface,</text>
+  <text x="740" y="415" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">property listings</text>
+  <text x="740" y="470" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="700" fill="#14B8A6" text-anchor="middle">80-85%</text>
+  <text x="740" y="510" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF" text-anchor="middle">✓ Working</text>
+
+  <!-- Card 3: Stock -->
+  <rect x="980" y="190" width="400" height="350" fill="#1E293B" rx="16"/>
+  <rect x="980" y="190" width="400" height="60" fill="url(#amberGradient)" rx="16"/>
+  <rect x="980" y="240" width="400" height="10" fill="#1E293B"/>
+  <text x="1180" y="230" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="middle">Stock &amp; Inventory</text>
+  <!-- Shelves icon -->
+  <rect x="1130" y="280" width="100" height="70" fill="#F59E0B" fill-opacity="0.2" rx="4"/>
+  <line x1="1140" y1="300" x2="1220" y2="300" stroke="#F59E0B" stroke-width="3"/>
+  <line x1="1140" y1="320" x2="1220" y2="320" stroke="#F59E0B" stroke-width="3"/>
+  <line x1="1140" y1="340" x2="1220" y2="340" stroke="#F59E0B" stroke-width="3"/>
+  <rect x="1150" y="302" width="15" height="16" fill="#F59E0B" fill-opacity="0.5"/>
+  <text x="1180" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">Financial calculations,</text>
+  <text x="1180" y="415" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">investment tools</text>
+  <text x="1180" y="470" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="700" fill="#F59E0B" text-anchor="middle">35%</text>
+  <text x="1180" y="510" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#F59E0B" text-anchor="middle">⚠ Scaffolded</text>
+
+  <!-- Card 4: Cash Register -->
+  <rect x="1420" y="190" width="400" height="350" fill="#1E293B" rx="16"/>
+  <rect x="1420" y="190" width="400" height="60" fill="url(#redGradient)" rx="16"/>
+  <rect x="1420" y="240" width="400" height="10" fill="#1E293B"/>
+  <text x="1620" y="230" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="middle">Cash Register</text>
+  <!-- Register icon -->
+  <rect x="1570" y="280" width="100" height="70" fill="#EF4444" fill-opacity="0.2" rx="4"/>
+  <rect x="1590" y="290" width="60" height="40" fill="none" stroke="#EF4444" stroke-width="3" rx="4"/>
+  <rect x="1600" y="295" width="40" height="15" fill="#EF4444" fill-opacity="0.5" rx="2"/>
+  <rect x="1610" y="335" width="20" height="10" fill="#EF4444"/>
+  <text x="1620" y="390" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">CRM, deal facilitation,</text>
+  <text x="1620" y="415" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">fee collection</text>
+  <text x="1620" y="470" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="700" fill="#EF4444" text-anchor="middle">0%</text>
+  <text x="1620" y="510" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#EF4444" text-anchor="middle">✗ Not Started</text>
+
+  <!-- Key insight box -->
+  <rect x="100" y="580" width="1720" height="140" fill="#14B8A6" fill-opacity="0.1" rx="16" stroke="#14B8A6" stroke-width="2"/>
+  <text x="150" y="630" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#14B8A6">The Key Insight</text>
+  <text x="150" y="680" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#FFFFFF">You can have a beautiful building with professional signage,</text>
+  <text x="150" y="715" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="#FFFFFF">but without stock to sell or a way to collect payment, you cannot operate a business.</text>
+
+  <!-- Current state summary -->
+  <text x="100" y="780" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#14B8A6">Current State of InvestRand Platform Rebuild:</text>
+
+  <circle cx="140" cy="830" r="8" fill="#14B8A6"/>
+  <text x="165" y="838" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#FFFFFF">The building looks professional (frontend at 80%)</text>
+
+  <circle cx="140" cy="870" r="8" fill="#14B8A6"/>
+  <text x="165" y="878" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#FFFFFF">The plumbing works (backend at 75%)</text>
+
+  <circle cx="140" cy="910" r="8" fill="#F59E0B"/>
+  <text x="165" y="918" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#FFFFFF">The shelves are mostly empty (financial calculations at 35%)</text>
+
+  <circle cx="140" cy="950" r="8" fill="#EF4444"/>
+  <text x="165" y="958" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#FFFFFF">There is no cash register (CRM and revenue functions at 0%)</text>
+
+  <!-- Page number -->
+  <text x="1870" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#475569" text-anchor="end">4b</text>
+</svg>

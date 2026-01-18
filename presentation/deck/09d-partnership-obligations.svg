@@ -1,0 +1,117 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#22C55E"/>
+    </linearGradient>
+    <linearGradient id="tealGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#0D9488"/>
+    </linearGradient>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6"/>
+      <stop offset="100%" style="stop-color:#2563EB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGradient)"/>
+
+  <!-- Title -->
+  <text x="100" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="#FFFFFF">Partnership Obligations</text>
+  <rect x="100" y="110" width="360" height="4" fill="url(#accentGradient)" rx="2"/>
+  <text x="100" y="155" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#9CA3AF">What fractional ownership actually requires from both parties</text>
+
+  <!-- The key insight box -->
+  <rect x="100" y="185" width="1720" height="70" fill="#F59E0B" fill-opacity="0.1" rx="12" stroke="#F59E0B" stroke-width="2"/>
+  <text x="150" y="225" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#F59E0B">The Reality:</text>
+  <text x="320" y="225" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#FFFFFF">Fractional ownership creates mutual obligations. Our upside depends on Ezra's execution — not just our delivery.</text>
+
+  <!-- Two columns: Ampersand obligations vs Ezra obligations -->
+
+  <!-- Ampersand column -->
+  <rect x="100" y="280" width="820" height="480" fill="#1E293B" rx="16"/>
+  <rect x="100" y="280" width="820" height="60" fill="url(#tealGradient)" rx="16"/>
+  <rect x="100" y="330" width="820" height="10" fill="#1E293B"/>
+  <text x="510" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF" text-anchor="middle">Ampersand's Obligations</text>
+
+  <text x="150" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#14B8A6">What We Deliver:</text>
+  <circle cx="165" cy="415" r="5" fill="#14B8A6"/>
+  <text x="185" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Working platform with business logic implemented</text>
+  <circle cx="165" cy="450" r="5" fill="#14B8A6"/>
+  <text x="185" y="455" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Infrastructure, DevOps, deployment pipeline</text>
+  <circle cx="165" cy="485" r="5" fill="#14B8A6"/>
+  <text x="185" y="490" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Mobile strategy and implementation</text>
+  <circle cx="165" cy="520" r="5" fill="#14B8A6"/>
+  <text x="185" y="525" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Ongoing technical support and iteration</text>
+
+  <text x="150" y="575" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#14B8A6">Our Skin in the Game:</text>
+  <rect x="150" y="595" width="720" height="70" fill="#14B8A6" fill-opacity="0.1" rx="8"/>
+  <text x="510" y="625" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#14B8A6" text-anchor="middle">Discounted Rate</text>
+  <text x="510" y="650" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF" text-anchor="middle">We accept less cash now, betting on InvestRand's future success</text>
+
+  <text x="150" y="710" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#EF4444">What We Don't Control:</text>
+  <circle cx="165" cy="745" r="5" fill="#EF4444"/>
+  <text x="185" y="750" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Go-to-market execution</text>
+  <circle cx="480" cy="745" r="5" fill="#EF4444"/>
+  <text x="500" y="750" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Marketing spend</text>
+  <circle cx="680" cy="745" r="5" fill="#EF4444"/>
+  <text x="700" y="750" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#9CA3AF">Sales</text>
+
+  <!-- Ezra column -->
+  <rect x="1000" y="280" width="820" height="480" fill="#1E293B" rx="16"/>
+  <rect x="1000" y="280" width="820" height="60" fill="url(#blueGradient)" rx="16"/>
+  <rect x="1000" y="330" width="820" height="10" fill="#1E293B"/>
+  <text x="1410" y="320" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#FFFFFF" text-anchor="middle">Ezra's Obligations</text>
+
+  <text x="1050" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#3B82F6">What Ezra Delivers:</text>
+  <circle cx="1065" cy="415" r="5" fill="#3B82F6"/>
+  <text x="1085" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Go-to-market strategy and execution</text>
+  <circle cx="1065" cy="450" r="5" fill="#3B82F6"/>
+  <text x="1085" y="455" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Marketing investment and messaging</text>
+  <circle cx="1065" cy="485" r="5" fill="#3B82F6"/>
+  <text x="1085" y="490" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Customer acquisition and relationship management</text>
+  <circle cx="1065" cy="520" r="5" fill="#3B82F6"/>
+  <text x="1085" y="525" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#FFFFFF">Business development and deal sourcing</text>
+
+  <text x="1050" y="575" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#3B82F6">Ezra's Skin in the Game:</text>
+  <rect x="1050" y="595" width="720" height="70" fill="#3B82F6" fill-opacity="0.1" rx="8"/>
+  <text x="1410" y="620" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="#3B82F6" text-anchor="middle">Payment + Fractional Ownership Commitment</text>
+  <text x="1410" y="650" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#9CA3AF" text-anchor="middle">He pays now AND commits to honouring future ownership obligations</text>
+
+  <text x="1050" y="710" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="600" fill="#F59E0B">The Dependency:</text>
+  <rect x="1050" y="725" width="720" height="30" fill="#F59E0B" fill-opacity="0.1" rx="4"/>
+  <text x="1410" y="747" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#F59E0B" text-anchor="middle">If Ezra doesn't execute on go-to-market, our fractional ownership is worthless</text>
+
+  <!-- Success milestone box -->
+  <rect x="100" y="780" width="1720" height="150" fill="#14B8A6" fill-opacity="0.1" rx="16" stroke="#14B8A6" stroke-width="2"/>
+  <text x="960" y="820" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="600" fill="#14B8A6" text-anchor="middle">Proposed Success Milestone</text>
+
+  <!-- The milestone equation -->
+  <rect x="200" y="845" width="350" height="70" fill="#1E293B" rx="8"/>
+  <text x="375" y="875" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF" text-anchor="middle">When InvestRand reaches</text>
+  <text x="375" y="905" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#14B8A6" text-anchor="middle">R1B Facilitated</text>
+
+  <text x="600" y="885" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#14B8A6">→</text>
+
+  <rect x="660" y="845" width="350" height="70" fill="#1E293B" rx="8"/>
+  <text x="835" y="875" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF" text-anchor="middle">Ampersand receives</text>
+  <text x="835" y="905" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700" fill="#14B8A6" text-anchor="middle">R1M Success Bonus</text>
+
+  <text x="1060" y="885" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#9CA3AF">=</text>
+
+  <rect x="1120" y="845" width="600" height="70" fill="#1E293B" rx="8"/>
+  <text x="1420" y="875" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#9CA3AF" text-anchor="middle">Based on unit economics: R1B facilitated ≈ R5-10M revenue</text>
+  <text x="1420" y="905" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#FFFFFF" text-anchor="middle">R1M = 10-20% of annual revenue — meaningful, not trivial</text>
+
+  <!-- Source footnotes -->
+  <text x="100" y="960" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#64748B">Sources:</text>
+  <text x="100" y="975" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#64748B">Unit economics derived from: disruptafrica.com/2024/03/26/how-investrand-is-helping-young-south-africans-get-clever-with-property-investments/</text>
+
+  <!-- Page number -->
+  <text x="1870" y="1040" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#475569" text-anchor="end">9d</text>
+</svg>
